@@ -18,3 +18,6 @@ Use the test cases below to guide you!"""
 class Classy(object):
     def __init__(self):
         self.items = []
+
+    def addItem(self,s):
+        self.items.append(s)
