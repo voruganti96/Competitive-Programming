@@ -6,4 +6,7 @@
 
 def fun_distance(x1, y1, x2, y2):
 	# your code goes here
+	
+
+
 	return 0
