@@ -15,7 +15,7 @@ def dicetoorderedhand(a, b, c):
 	# your code goes here
 	numbers = [a,b,c]
 	numbers.sort(reverse = True) 
-	listToStr = ' '.join(map(str, numbers))
-	print(listToStr)
+	numbers_str = ''.join(map(str, numbers))
+	return(numbers)
 	
-	
+dicetoorderedhand(3,2,1)
