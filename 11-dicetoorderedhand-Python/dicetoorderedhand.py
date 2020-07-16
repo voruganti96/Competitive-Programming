@@ -16,6 +16,12 @@ def dicetoorderedhand(a, b, c):
 	numbers = [a,b,c]
 	numbers.sort(reverse = True) 
 	numbers_str = ''.join(map(str, numbers))
-	return(numbers)
-	
-dicetoorderedhand(3,2,1)
+	print(numbers_str)
+	return int(numbers_str)
+"""	
+dicetoorderedhand(1,2,3)
+dicetoorderedhand(6,5,4)
+dicetoorderedhand(1,4,2)
+dicetoorderedhand(6,5,6)
+dicetoorderedhand(2,2,2)
+"""
