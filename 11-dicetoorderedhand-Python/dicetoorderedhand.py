@@ -13,4 +13,6 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
+	numbers = []
+	numbers.sort(reverse = True) 
 	pass
