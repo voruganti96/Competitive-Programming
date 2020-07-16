@@ -28,7 +28,7 @@ class Classy(object):
             if(i == 'tophat'):
                 finalsum = finalsum +2
             elif( i == 'bowtie'):
-                sinalsum = finalsum +4
+                finalsum = finalsum +4
             elif( i == 'monocle'):
                 finalsum=finalsum +5
         return finalsum
