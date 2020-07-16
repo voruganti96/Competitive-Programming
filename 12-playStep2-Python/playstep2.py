@@ -5,6 +5,7 @@
 # Note that in a more realistic version of this game, instead of hard-coding the dice in this way,
 # we'd probably use a random-number generator.
 
+
 # With that, the function plays step2 of the given hand, using the given dice to get the next rolls
 # as needed. At the end, the function returns the new hand, but it has to be ordered, and the
 # function also returns the resulting dice (which no longer contain the rolls that were just used).
