@@ -21,3 +21,7 @@ class Classy(object):
 
     def addItem(self,s):
         self.items.append(s)
+
+    def classiness(self):
+        finalsum = 0
+        
