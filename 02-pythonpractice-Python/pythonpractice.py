@@ -24,4 +24,6 @@ class Classy(object):
 
     def classiness(self):
         finalsum = 0
-        
+        for i in self.items:
+            if(i == 'tophat'):
+                finalsum = finalsum +2
