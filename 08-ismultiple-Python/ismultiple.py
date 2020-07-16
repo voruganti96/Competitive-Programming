@@ -8,4 +8,6 @@
 def fun_ismultiple(m, n):
 	if( n!= 0 and m % n ==0):
 		return True
+	if ( m == 0 and n == 0):
+		return True
 		
