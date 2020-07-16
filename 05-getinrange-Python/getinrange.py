@@ -9,4 +9,4 @@ def fun_getinrange(x, bound1, bound2):
 	if (min(bound1,bound2) <=x) and (x<= max(bound1,bound2)):
 		return x
 	elif(x < min(bound1,bound2)):
-		return min()
+		return min(bound1,bound2)
