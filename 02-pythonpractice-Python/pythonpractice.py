@@ -27,3 +27,9 @@ class Classy(object):
         for i in self.items:
             if(i == 'tophat'):
                 finalsum = finalsum +2
+            elif( i == 'bowtie'):
+                sinalsum = finalsum +4
+            elif( i == 'monocle'):
+                finalsum=finalsum +5
+        return finalsum
+
