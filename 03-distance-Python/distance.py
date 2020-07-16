@@ -6,7 +6,7 @@
 
 def fun_distance(x1, y1, x2, y2):
 	# your code goes here
-	distance = sqrt(((x2-x1)))
+	distance = sqrt(((x2-x1)**2))
 
 
 	return 0
