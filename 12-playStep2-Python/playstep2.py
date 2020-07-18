@@ -29,6 +29,25 @@
 # into a sorted hand.
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 
+
+
+def handtoDice(hand):
+	string = str(hand)
+	return int(string[0], int(string[1]), int(string[3]))
+
+def dicetoorderedHand(a , b , c):
+	maximum = max(a,b,c)
+	minimum = min(a,b,c)
+	mid=(a+b+c) - ( maximum + minimum)
+	return (maximum * 100) + (mid *10) + minimum
+
+
+
+
+
+
+
 def playstep2(hand, dice):
 	# your code goes here
-	pass
+
+	(a,b,c) 
