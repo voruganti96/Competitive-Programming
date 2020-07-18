@@ -33,7 +33,7 @@
 
 def handtoDice(hand):
 	string = str(hand)
-	return int(string[0], int(string[1]), int(string[3]))
+	return int(string[0]), int(string[1]), int(string[2])
 
 def dicetoorderedHand(a , b , c):
 	maximum = max(a,b,c)
@@ -50,4 +50,19 @@ def dicetoorderedHand(a , b , c):
 def playstep2(hand, dice):
 	# your code goes here
 
-	(a,b,c) 
+	(a,b,c) = handtoDice(hand)
+	if a !=b and b !=c and a !=c:
+		a = max(a,b,c)
+		b = dice %10
+		dice = dice //10
+		c = dice %10
+		dice = dice // 10
+	else:
+		if b== c :
+			a = b
+		elif a ==c:
+			b = a
+		c = dice %10
+		dice = dice //10
+	hand = dicetoorderedHand(a,b,c)
+	return hand,dice
