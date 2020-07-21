@@ -4,6 +4,7 @@
 # is also prime, so 113 is an Additive Prime. fun_nth_additive_prime(0) returns 2
 
 primes = []
+nonprimes =[]
 def is_prime(n):
 
 	if n < 1 or n % 1 > 0:
@@ -18,6 +19,7 @@ def is_prime(n):
 for i in range(2,300):
 	if is_prime(i) == 1:
 		primes.append(i)
+	else 
 
 
 def is_additiveprime():
