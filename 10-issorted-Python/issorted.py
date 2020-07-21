@@ -12,4 +12,6 @@ def issorted(a):
 		if (a[i] > a[i+1]):
 			flag = False
 
-			
+	if flag == False:
+		for i in range(len(a)-1):
+			if{}
