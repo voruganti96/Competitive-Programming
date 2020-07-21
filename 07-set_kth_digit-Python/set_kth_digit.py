@@ -18,4 +18,5 @@ def fun_set_kth_digit(n, k, d):
 	
 	except:
 		l.append(str(d))
+		return int(''.joint(l[::]))
 
