@@ -32,7 +32,7 @@ def fun_nth_additive_prime(n):
 	return 1
 
 
-#is_prime(4)
+is_prime(4)
 
 
 print("primes:")
