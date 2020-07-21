@@ -32,6 +32,7 @@ def fun_nth_additive_prime(n):
 
 
 print(is_prime(6))
+prime_list()
 
 
 print("primes:")
