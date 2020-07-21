@@ -6,7 +6,7 @@
 primes = []
 nonprimes =[]
 def is_prime(n):
-	if n < 1 :
+	if n < 1 or n % 1 >0:
 		return False
 
 	for i in range(2,n//2):
