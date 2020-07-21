@@ -16,7 +16,8 @@ def is_prime(n):
 			print("yes")
 			break
 
-#for i in range(1,)	
+for i in range(2,300):
+	is_prime(i) == yes
 
 def is_additiveprime():
 	pass
