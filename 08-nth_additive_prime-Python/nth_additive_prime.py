@@ -6,22 +6,22 @@
 primes = []
 nonprimes =[]
 def is_prime(n):
-
 	if n < 1 or n % 1 > 0:
 		return 0
 
-	for x in range(1,n-1):
+	for i in range(1,n-1):
 		if (n % x) == 0:
 			return 0
 		else:
 			return 1
 			break
 
-for i in range(2,100):
-	if is_prime(i) == 1:
-		primes.append(i)
-	else:
-		nonprimes.append(i)
+def prime_list():
+	for i in range(2,100):
+		if is_prime(i) == 1:
+			primes.append(i)
+		else:
+			nonprimes.append(i)
 
 def is_additiveprime():
 	pass
