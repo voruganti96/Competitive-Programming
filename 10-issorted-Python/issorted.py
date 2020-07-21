@@ -17,4 +17,5 @@ def issorted(a):
 			if(a[i] <= a[i+1]):
 				return False
 	else:
-		re
+		return True
+		
