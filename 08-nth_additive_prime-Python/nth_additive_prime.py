@@ -31,7 +31,7 @@ prime_list()
 def is_additiveprime(n):
 	if is_prime(n):
 		if sum_digits in primes:
-			print(True)
+			print("True")
 
 	
 
@@ -40,6 +40,6 @@ def fun_nth_additive_prime(n):
 	return 1
 
 
-print(is_additiveprime(11))
+is_additiveprime(11)
 
 
