@@ -16,7 +16,7 @@ def is_prime(n):
 		else:
 			return 1
 
-for i in range(2,300):
+for i in range(2,100):
 	if is_prime(i) == 1:
 		primes.append(i)
 	else:nonprimes.append(i)
