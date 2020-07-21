@@ -31,7 +31,7 @@ def is_additiveprime():
 	pass
 
 def fun_nth_additive_prime(n):
-	
+	for 
 	return 1
 
 
