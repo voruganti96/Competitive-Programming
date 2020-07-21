@@ -15,6 +15,7 @@ def is_prime(n):
 	return True
 
 def sum_digits(n):
+	sum=0
 	for digit in str(n):
 		sum += int(digit)
 	print(sum)
@@ -38,7 +39,7 @@ def fun_nth_additive_prime(n):
 	return 1
 
 
-sum_digits()
+sum_digits(25)
 print(is_prime(4))
 prime_list()
 
