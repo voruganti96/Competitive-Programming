@@ -10,6 +10,10 @@
 
 def gcd(m, n):
 	# your code goes here
-	while(n):
-		m , n = n, m % n
+	if ( n==0) :
 		return m
+
+	else:
+		return gcd(n , m% n)
+
+	
