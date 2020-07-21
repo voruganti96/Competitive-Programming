@@ -14,4 +14,4 @@ import pytest
 	("100", True), 
 ])
 def test_isperfectsquare(n, result):
-    assert isperfectsquare(row) == result
+    assert isperfectsquare(n) == result
