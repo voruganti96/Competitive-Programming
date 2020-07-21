@@ -18,3 +18,12 @@ def mostfrequentdigit(n):
 			d[i] = d[i] + 1
 		else:
 			d[i] = 1
+
+	m = 0
+	z = 0
+
+	for i in d:
+		if d[i] > m:
+			m = d[i]
+			z = i
+		
