@@ -31,10 +31,11 @@ def is_additiveprime():
 	pass
 
 def fun_nth_additive_prime(n):
+	
 	return 1
 
 
 sum_digits(25)
 print(is_prime(4))
-prime_list()
+
 
