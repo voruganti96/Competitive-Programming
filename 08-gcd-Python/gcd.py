@@ -10,4 +10,6 @@
 
 def gcd(m, n):
 	# your code goes here
-	pass
+	while(n):
+		m , n = n, m % n
+		return m
