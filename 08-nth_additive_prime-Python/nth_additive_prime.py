@@ -17,7 +17,7 @@ def is_prime(n):
 			print("yes")
 			break
 
-	
+#for i in range(1,)	
 
 def is_additiveprime():
 	pass
@@ -25,4 +25,4 @@ def is_additiveprime():
 def fun_nth_additive_prime(n):
 	return 1
 
-is_prime(11)
+is_prime(2)
