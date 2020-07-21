@@ -12,7 +12,9 @@
 
 def fun_applycaesarcipher(msg, shift):
 	enc = ""
-	
+	for i in msg:
+		if i == " ":
+			enc = enc +i
 
 
 
