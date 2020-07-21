@@ -28,3 +28,4 @@ def fun_nth_additive_prime(n):
 	return 1
 
 print(primes)
+print(nonprimes)
