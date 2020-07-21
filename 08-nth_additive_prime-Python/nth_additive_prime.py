@@ -20,11 +20,6 @@ def sum_digits(n):
 		sum += int(digit)
 	print(sum)
 
-
-
-
-
-
 def prime_list():
 	for i in range(2,100):
 		if is_prime(i) == True:
@@ -43,8 +38,3 @@ sum_digits(25)
 print(is_prime(4))
 prime_list()
 
-
-print("primes:")
-print(primes)
-print("nonprimes:")
-print(nonprimes)
