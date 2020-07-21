@@ -26,12 +26,15 @@ def prime_list():
 			primes.append(i)
 		else:
 			nonprimes.append(i)
+prime_list()
 
 def is_additiveprime():
+	for i in primes:
+		if sum_digits(i) 
 	pass
 
 def fun_nth_additive_prime(n):
-	for 
+	
 	return 1
 
 
