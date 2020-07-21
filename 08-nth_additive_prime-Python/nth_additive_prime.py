@@ -32,7 +32,7 @@ def is_additiveprime(n):
 	if is_prime(n):
 		primes_set=set(primes)
 		if sum_digits(n) in primes_set:
-			print("True")
+			return True")
 
 	
 
