@@ -8,3 +8,6 @@ def smallestdifference(a):
 	# Your code goes here
 	if len(a) == 0:
 		return -1
+
+	else:
+		small_diff = 10
