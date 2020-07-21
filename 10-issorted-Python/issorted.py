@@ -8,7 +8,7 @@
 def issorted(a):
 	# your code goes here
 	flag  = True
-	for i in range(len(a)-1):
+	for i in range(len(a)):
 		if (a[i] > a[i+1]):
 			flag = False
 
