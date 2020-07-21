@@ -9,6 +9,6 @@ def fun_replace(s1, s2, s3):
 	i = 0
 
 	while True:
-		a = s1.find(s2,
+		a = s1.find(s2,i)
 	
 
