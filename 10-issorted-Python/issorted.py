@@ -13,7 +13,7 @@ def issorted(a):
 			flag = False
 
 	if flag == False:
-		for i in range(len(a)-1):
+		for i in range(len(a)):
 			if(a[i] <= a[i+1]):
 				return False
 	else:
