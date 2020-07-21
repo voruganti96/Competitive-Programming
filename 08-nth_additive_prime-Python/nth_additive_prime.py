@@ -12,7 +12,6 @@ def is_prime(n):
 	for x in range(1,n//2):
 		if (n % x) == 0:
 			print("not prime")
-			break
 		else:
 			print("yes")
 			break
