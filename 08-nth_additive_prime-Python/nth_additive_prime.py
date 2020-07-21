@@ -6,7 +6,7 @@
 primes = []
 nonprimes =[]
 def is_prime(n):
-	if n < 1 or n % 1 >0:
+	if n < 1 or n % 1 >0 or n==4:
 		return False
 
 	for i in range(2,n//2):
@@ -14,8 +14,7 @@ def is_prime(n):
 			return False	
 	return True
 
-		
-
+sum_digits(())
 def prime_list():
 	for i in range(2,100):
 		if is_prime(i) == True:
