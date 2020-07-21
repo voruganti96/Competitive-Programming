@@ -13,4 +13,6 @@ def smallestdifference(a):
 		small_diff = 10**10
 		a = sorted(a)
 
-		for i in range()
+		for i in range(len(a)-1):
+			if abs(a[i+1] - a[i]) < small_diff:
+				small_diff = s[i+1] - a[i]
