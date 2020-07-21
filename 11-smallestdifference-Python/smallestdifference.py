@@ -17,4 +17,4 @@ def smallestdifference(a):
 			if abs(a[i+1] - a[i]) < small_diff:
 				small_diff = a[i+1] - a[i]
 
-		
+		return small_diff
