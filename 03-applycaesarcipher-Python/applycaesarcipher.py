@@ -15,6 +15,8 @@ def fun_applycaesarcipher(msg, shift):
 	for i in msg:
 		if i == " ":
 			enc = enc +i
+		elif i.isupper():
+			enc = enc + chr((ord(i)))
 
 
 
