@@ -7,4 +7,6 @@ def median(a):
 	# your code goes here
 	length = len(a)
 	if (length ==0):
-		
+		return None
+	else:
+		a.sort()
