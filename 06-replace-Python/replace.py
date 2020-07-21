@@ -14,6 +14,8 @@ def fun_replace(s1, s2, s3):
 			res.append(s1[i:])
 			return "".join(res)
 		else:
-			res.append(s1)
+			res.append(s1[i:a])
+			res.append(s3)
+			
 	
 
