@@ -73,9 +73,10 @@ class LinkedList(object):
         current = self.head
         if current.value == value:
             self.head = current.get_next()
+            current = None
 
         while current:
             if current.value == value:
-                previous.next = current.get_next
+                previous.next = current.get_next()
             previous = current
             current = current.next
