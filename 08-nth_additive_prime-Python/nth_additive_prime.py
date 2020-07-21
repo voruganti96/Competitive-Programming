@@ -28,17 +28,18 @@ def prime_list():
 			nonprimes.append(i)
 prime_list()
 
-def is_additiveprime():
-	for i in primes:
-		if sum_digits(i) 
-	pass
+def is_additiveprime(n):
+	if is_prime(n):
+		if sum_digits in primes:
+			return true
+
+	
 
 def fun_nth_additive_prime(n):
 	
 	return 1
 
 
-sum_digits(25)
-print(is_prime(4))
+is_additiveprime(11)
 
 
