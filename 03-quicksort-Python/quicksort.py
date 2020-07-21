@@ -3,4 +3,4 @@ Input a list.
 Output a sorted list."""
 def quicksort(array):
 	# Your code goes here
-	pass
+	qsort(array,0,len(array)-1)
