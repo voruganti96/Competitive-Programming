@@ -56,6 +56,11 @@ class LinkedList(object):
         if self.head:
             count = 1
             current = self.head
+            while position - 1 > count:
+                current = current.get_next()
+                count = count +1
+            
+            temp
     
     
     def delete(self, value):
