@@ -6,4 +6,16 @@
 
 
 def fun_get_kth_digit(digit, k):
-	return 0
+	a = str(digit) [::-1]
+	try:
+		if a[k] in "0123456789":
+			return int(a[k])
+		else:
+			return 0
+	except:
+		return 0
+
+
+# Done
+
+# agsdjkgaJSFbb
