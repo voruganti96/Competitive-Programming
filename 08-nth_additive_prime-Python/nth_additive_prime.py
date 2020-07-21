@@ -9,7 +9,7 @@ def is_prime(n):
 	if n < 1:
 		pass
 
-	for x in range(1,n//2):
+	for x in range(2,n//2):
 		if (n % x) == 0:
 			return 0
 		else:
