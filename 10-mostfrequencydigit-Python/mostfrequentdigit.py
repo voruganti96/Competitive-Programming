@@ -9,7 +9,7 @@ def mostfrequentdigit(n):
 	# your code goes here
 	n = list(str(n))
 
-	l = list(map(int.n))
+	l = list(map(int,n))
 
 	d = {}
 
@@ -33,7 +33,7 @@ def mostfrequentdigit(n):
 		if d[i] ==m:
 			a.append(i)
 
-	if len(a) > a:
+	if len(a) > 1:
 		return min(a)
 
 	if m == 1:
@@ -44,4 +44,3 @@ def mostfrequentdigit(n):
 
 
 
-		
