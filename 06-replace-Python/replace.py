@@ -10,5 +10,7 @@ def fun_replace(s1, s2, s3):
 
 	while True:
 		a = s1.find(s2,i)
+		if a == -1:
+			res.append(s1[i:])
 	
 
