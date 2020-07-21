@@ -8,6 +8,7 @@
 
 import math
 def fun_find_int_roots(a, b, c):
-	return 0, 0
+
+	x = ( -b )
 
 
