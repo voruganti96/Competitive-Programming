@@ -27,7 +27,10 @@ def is_additiveprime():
 
 def fun_nth_additive_prime(n):
 	return 1
+
+	"""
 print("primes:")
 print(primes)
 print("nonprimes:")
 print(nonprimes)
+	"""
