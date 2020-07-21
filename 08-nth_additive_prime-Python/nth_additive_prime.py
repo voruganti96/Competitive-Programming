@@ -6,10 +6,13 @@
 
 def is_prime(n):
 
-	#if i < 1:break
+	if i < 1:
+		pass
+
 	for i in range(2,n/2):
 		if (num % i) == 0:
 			print("not prime")
+			
 	
 
 def is_additiveprime():
