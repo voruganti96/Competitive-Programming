@@ -5,9 +5,9 @@
 
 
 def is_prime(n):
-	
-	#if i < 1:break
 
+	#if i < 1:break
+	for 
 	pass
 
 def is_additiveprime():
