@@ -9,8 +9,8 @@ def is_prime(n):
 	#if i < 1:break
 	for i in range(2,n/2):
 		if (num % i) == 0:
-			print("")
-	pass
+			print("not prime")
+	
 
 def is_additiveprime():
 	pass
