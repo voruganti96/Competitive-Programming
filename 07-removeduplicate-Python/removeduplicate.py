@@ -10,4 +10,6 @@ def removeduplicate(text):
 	li = []
 
 	for i in a:
-	
+		if i not in li:
+			li.append(i)
+	return "".join(li)
