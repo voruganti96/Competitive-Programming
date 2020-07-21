@@ -41,6 +41,6 @@ def fun_nth_additive_prime(n):
 	return 1
 
 
-is_additiveprime(11)
+is_additiveprime(41)
 
 
