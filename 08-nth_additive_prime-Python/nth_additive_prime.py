@@ -13,8 +13,7 @@ def is_prime(n):
 	for x in range(2,n//2):
 		if (n % x) == 0:
 			return 0
-		else:
-			return 1
+		return 1
 
 for i in range(2,100):
 	if is_prime(i) == 1:
