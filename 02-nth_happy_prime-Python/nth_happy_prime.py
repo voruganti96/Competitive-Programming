@@ -29,7 +29,7 @@ def isprime(n):
 		if n % i ==0:
 			flag = flag +1
 	if flag ==2:
-			return True
+					return True
 	else:
 			return False
 
