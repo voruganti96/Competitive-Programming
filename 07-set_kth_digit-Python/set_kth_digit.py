@@ -7,5 +7,15 @@
 
 
 def fun_set_kth_digit(n, k, d):
-		return 0
+	l = list(str(n)[::-1])
+	try:
+		if l[k] in "0123456789":
+			l[k] = str(d)
+		elif l[k] in "-":
+			l[k] = str(d)
+			l.append("-")
+		return int("".join(l[::-1]))
+	
+	except:
+		l.append(str(d))
 
