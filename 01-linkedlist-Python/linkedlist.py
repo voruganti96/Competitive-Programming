@@ -60,7 +60,7 @@ class LinkedList(object):
                 current = current.get_next()
                 count = count +1
             
-            temp
+            temp = current.get_next()
     
     
     def delete(self, value):
