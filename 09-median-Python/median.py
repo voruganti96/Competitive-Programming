@@ -5,4 +5,6 @@
 
 def median(a):
 	# your code goes here
-	pass
+	length = len(a)
+	if (length ==0):
+		
