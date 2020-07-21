@@ -9,4 +9,18 @@
 
 def fun_nthfibonaccinumber(n):
 	# your code goes Here
-	return 0
+	if n ==0:
+		return 1
+
+	else:
+
+		a = 1
+		b = 1
+		c = 0
+
+		for i in range(1,n):
+			c = a+ b 
+			a = b 
+			b = c
+
+		return b
