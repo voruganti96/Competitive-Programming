@@ -17,7 +17,7 @@ def is_prime(n):
 def sum_digits(n):
 	for digit in str(n):
 		sum += int(digit)
-	print
+	print(sum)
 
 
 
