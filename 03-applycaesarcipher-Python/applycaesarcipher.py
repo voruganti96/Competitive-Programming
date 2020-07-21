@@ -19,6 +19,7 @@ def fun_applycaesarcipher(msg, shift):
 			enc = enc + chr((ord(i) + shift-65) % 26+65)
 		else:
 			enc = enc + chr ((ord(i)+ shift-97) % 26+97)
+	return enc
 
 
 
