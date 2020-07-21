@@ -13,6 +13,7 @@ def fun_replace(s1, s2, s3):
 		if a == -1:
 			res.append(s1[i:])
 			return "".join(res)
-			
+		else:
+			res.append(s1)
 	
 
