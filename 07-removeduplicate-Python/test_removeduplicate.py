@@ -5,9 +5,9 @@ import pytest
 
 
 @pytest.mark.parametrize('a, result',[
-    ("JavaPython", "JavPython"), ("HelloWorld", "HeloWrd"), ("EEE", "E"),
+    ("JavaPython", "JavPython"), ("HelloWorld", "HelloWrld"), ("EEE", "E"),
     ("a a ", "a "), ("121212121", "12"), ("", ""),
     ("Test", "Test"), ("1001", "10"), ("11110000", "10"),
 ])
 def test_removeduplicate(a, result):
-    assert removeduplicate(a) == results
+    assert removeduplicate(a) == result
