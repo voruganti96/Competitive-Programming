@@ -12,6 +12,7 @@ doesn't exist in the list."""
 
 def binary_search(input_array, value):
     low = 0(input_array) -1
-    
+    while low <= high:
+        
         
 
