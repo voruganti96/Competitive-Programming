@@ -38,7 +38,7 @@ def fun_nth_additive_prime(n):
 	return 1
 
 
-sum
+sum_digits()
 print(is_prime(4))
 prime_list()
 
