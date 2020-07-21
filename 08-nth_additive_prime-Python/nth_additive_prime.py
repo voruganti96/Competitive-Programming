@@ -20,7 +20,7 @@ def is_prime(n):
 
 def prime_list():
 	for i in range(2,100):
-		if is_prime(i) == 1:
+		if is_prime(i) == True:
 			primes.append(i)
 		else:
 			nonprimes.append(i)
