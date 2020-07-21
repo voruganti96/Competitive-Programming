@@ -5,4 +5,9 @@
 
 def removeduplicate(text):
 	# Your code goes here
-	pass
+	a = list(str(text))
+
+	li = []
+
+	for i in a:
+	
