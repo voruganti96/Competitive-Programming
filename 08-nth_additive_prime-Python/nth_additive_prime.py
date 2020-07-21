@@ -10,7 +10,7 @@ def is_prime(n):
 		return 0
 
 	for i in range(1,n-1):
-		if n % 1 == 0:
+		if n % i == 0:
 			print("non prime")
 			return 0
 		else:
