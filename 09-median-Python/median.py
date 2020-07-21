@@ -13,4 +13,6 @@ def median(a):
 		if length %2 ==0:
 			median = ((a[length//2])+(a[length//2-1]))/2
 			return median
-			
+		else:
+			median = a[length//2]
+			return median
