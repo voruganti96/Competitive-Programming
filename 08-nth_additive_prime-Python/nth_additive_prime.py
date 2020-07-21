@@ -10,11 +10,11 @@ def is_prime(n):
 		return 0
 
 	for i in range(1,n-1):
-		if (n % x) == 0:
+		if (n % 1) == 0:
 			print("non prime")
 			return 0
 		else:
-			print("non prime")
+			print("prime")
 			return 1
 			break
 
