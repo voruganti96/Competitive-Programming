@@ -15,6 +15,7 @@ def is_prime(n):
 			return 0
 		else:
 			return 1
+			break
 
 for i in range(2,100):
 	if is_prime(i) == 1:
@@ -31,7 +32,7 @@ def fun_nth_additive_prime(n):
 
 is_prime(4)
 
-"""
+
 print("primes:")
 print(primes)
 print("nonprimes:")
