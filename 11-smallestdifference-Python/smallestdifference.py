@@ -12,3 +12,5 @@ def smallestdifference(a):
 	else:
 		small_diff = 10**10
 		a = sorted(a)
+
+		for i in range()
