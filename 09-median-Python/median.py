@@ -10,3 +10,5 @@ def median(a):
 		return None
 	else:
 		a.sort()
+		if length %2 ==0:
+			median = ((a[length//2])+)
