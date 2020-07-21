@@ -7,7 +7,7 @@ primes = []
 def is_prime(n):
 
 	if n < 1 or n % 1 > 0:
-		pass
+		return 0
 
 	for x in range(2,n//2):
 		if (n % x) == 0:
