@@ -7,6 +7,12 @@
 
 def fun_nearestodd(n):
 	if(int(n) % 2 == 0):
-		a = int
+		a = int(n) - 1
+		b = int(n) + 1
+		if n-a <= b-n:
+			return a 
+		elif n-a > b-n:
+			return b
+		
 
 
