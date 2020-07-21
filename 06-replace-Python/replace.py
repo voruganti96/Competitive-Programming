@@ -16,6 +16,6 @@ def fun_replace(s1, s2, s3):
 		else:
 			res.append(s1[i:a])
 			res.append(s3)
-			
+			i = a+len(s2)
 	
 
