@@ -30,7 +30,7 @@ prime_list()
 
 def is_additiveprime(n):
 	if is_prime(n):
-		if sum_digits in primes:
+		if sum_digits(n) in primes:
 			print("True")
 
 	
