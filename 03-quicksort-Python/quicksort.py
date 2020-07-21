@@ -15,7 +15,8 @@ def qsort(array, start, end):
 
 
 def partition(array, start, end):
-	pivot = start+1
+	pivot = start[start]
+	low = start+1
 	high = end
 	while True:
 		while low <= high and array[high] >= pivot:
