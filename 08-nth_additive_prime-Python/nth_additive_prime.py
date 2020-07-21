@@ -12,8 +12,8 @@ def is_prime(n):
 	for i in range(2,n/2):
 		if (num % i) == 0:
 			print("not prime")
-		else:
-			
+		else:print("yes")
+
 	
 
 def is_additiveprime():
