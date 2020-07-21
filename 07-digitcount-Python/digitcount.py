@@ -10,3 +10,7 @@ def digitcount(n):
 	l = list(str(abs(n)))
 
 	return  len(l)
+
+
+
+	
