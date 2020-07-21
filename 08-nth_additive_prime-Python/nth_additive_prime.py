@@ -33,7 +33,7 @@ def fun_nth_additive_prime(n):
 
 
 
-is_prime(9)
+is_prime(2)
 
 
 print("primes:")
