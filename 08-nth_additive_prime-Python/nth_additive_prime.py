@@ -14,6 +14,7 @@ def is_prime(n):
 			print("non prime")
 			return 0
 		else:
+			print("non prime")
 			return 1
 			break
 
