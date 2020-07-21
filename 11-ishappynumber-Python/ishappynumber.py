@@ -16,4 +16,18 @@
 
 def ishappynumber(n):
 	# your code goes here
-	pass
+	if n <=0 or n ==4:
+		return False
+
+	elif n ==1:
+		return True
+	
+
+	else:
+
+		s = 0
+		while (n>0):
+			s = s+ (n%10) **2
+			n = n// 10
+
+			return ishappynumber(s)
