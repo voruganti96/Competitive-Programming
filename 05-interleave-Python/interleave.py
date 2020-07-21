@@ -10,4 +10,8 @@
 def fun_interleave(s1,s2):
 	if not s1:
 		return s2
+	elif not s2:
+		return s1
+	else:
+		return s1[0] + s2[0] + fun
 	
