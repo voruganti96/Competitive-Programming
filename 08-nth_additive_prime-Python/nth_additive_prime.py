@@ -42,5 +42,6 @@ def fun_nth_additive_prime(n):
 
 
 is_additiveprime(15)
+print("")
 
 
