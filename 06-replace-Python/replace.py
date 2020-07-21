@@ -8,6 +8,7 @@ def fun_replace(s1, s2, s3):
 	res = []
 	i = 0
 
-	
+	while True:
+		a = s1.find
 	
 
