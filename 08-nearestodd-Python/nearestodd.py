@@ -14,6 +14,7 @@ def fun_nearestodd(n):
 		elif n-a > b-n:
 			return b
 	
-	
+	else: 
+		return int(n)
 
 
