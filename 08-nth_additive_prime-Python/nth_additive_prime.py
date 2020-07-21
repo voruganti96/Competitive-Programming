@@ -19,7 +19,7 @@ def is_prime(n):
 for i in range(2,300):
 	if is_prime(i) == 1:
 		primes.append(i)
-	else:nonprimes.append
+	else:nonprimes.append(i)
 
 def is_additiveprime():
 	pass
