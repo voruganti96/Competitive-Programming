@@ -12,10 +12,10 @@ def is_prime(n):
 	for i in range(1,n-1):
 		if n % i == 0:
 			print("non prime")
-			return 0
+			return False
 		else:
 			print("prime")
-			return 1
+			return True
 			break
 
 def prime_list():
