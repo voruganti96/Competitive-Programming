@@ -24,7 +24,7 @@ def partition(array, start, end):
 		while low <= high and array[low] <= pivot:
 			low = low+1
 		if low <= high:
-			array[low],array[high],array[low]
+			array[low],array[high]= array[high],array[low]
 		else:
 			break
 
