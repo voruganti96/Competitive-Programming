@@ -9,8 +9,8 @@ def is_prime(n):
 	if n < 1:
 		pass
 
-	for i in range(2,n/2):
-		if (num % i) == 0:
+	for x in range(2,n//2):
+		if (num % x) == 0:
 			print("not prime")
 		else:
 			print("yes")
@@ -23,4 +23,4 @@ def is_additiveprime():
 def fun_nth_additive_prime(n):
 	return 1
 
-is_prime(2)
+is_prime(3)
