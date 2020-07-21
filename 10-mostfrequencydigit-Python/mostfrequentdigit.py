@@ -26,4 +26,22 @@ def mostfrequentdigit(n):
 		if d[i] > m:
 			m = d[i]
 			z = i
+	
+	a = []
+
+	for i in d:
+		if d[i] ==m:
+			a.append(i)
+
+	if len(a) > a:
+		return min(a)
+
+	if m == 1:
+		return l[0]
+
+	else:
+		return z
+
+
+
 		
