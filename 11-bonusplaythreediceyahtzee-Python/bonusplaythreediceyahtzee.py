@@ -57,9 +57,9 @@ def dicetoorderedhand(a,b,c):
 
 def playstep2(hand,dice):
 	(a,b,c) = handtodice(hand)
-	if a==b and b==c and c==a:
+	if a==b and b==c and a==c:
 		return hand,dice
-	elif a !=b and b!=c and c!=a:
+	elif a !=b and b!=c and a!=c:
 		a = max(a,b,c)
 		b = dice %10
 		dice = dice//10
@@ -82,7 +82,7 @@ def playstep2(hand,dice):
 def score(hand):
 	(a,b,c) = handtodice(hand)
 
-	if a!=b and b!=c and c!=a:
+	if a!=b and b!=c and a!=c:
 		return max(a,b,c)
 	elif a ==b and b==c and a==c:
 		return 20+ a+ b+ c
