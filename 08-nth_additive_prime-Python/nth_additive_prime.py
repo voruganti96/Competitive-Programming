@@ -14,7 +14,16 @@ def is_prime(n):
 			return False	
 	return True
 
-sum_digits(())
+def sum_digits(n):
+	for digit in str(n):
+		sum += int(digit)
+	print
+
+
+
+
+
+
 def prime_list():
 	for i in range(2,100):
 		if is_prime(i) == True:
