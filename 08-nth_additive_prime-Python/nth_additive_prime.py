@@ -7,7 +7,9 @@
 def is_prime(n):
 
 	#if i < 1:break
-	for 
+	for i in range(2,n/2):
+		if (num % i) == 0:
+			print("")
 	pass
 
 def is_additiveprime():
