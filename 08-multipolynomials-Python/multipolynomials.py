@@ -10,7 +10,7 @@ def multipolynomials(p1, p2):
 	#res_list=[]
 	return poly.polymul(p1,p1)
 	
-p1=(2,0,3)
+p1=(3,0,2)
 p2=(4,5)
 
 multipolynomials(p1,p2)
