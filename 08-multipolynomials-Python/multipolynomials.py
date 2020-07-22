@@ -8,7 +8,6 @@ from numpy.polynomial import polynomial as poly
 def multipolynomials(p1, p2):
 	# Your code goes here
 	res_list=[]
-	for i in range(0,len(p1)):
-		res_list.append(p1[i]*p2[i])
+	pol
 	return res_list
 	
