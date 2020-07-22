@@ -11,4 +11,7 @@
 
 def shortenlongruns(L, k):
 	# Your code goes here
-	pass
+	z = []
+
+	count = 1
+
