@@ -11,4 +11,8 @@ def hasduplicates(L):
 		for j in i:
 			if j in s:
 				return True
-				
+			else:
+				s.add(j)
+
+
+	return False
