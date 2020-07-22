@@ -19,4 +19,13 @@ def lookandsay(a):
 		z = 0
 		temp = True
 
-		
+
+		for i in range(len(a)-1):
+			if a[i] == a[i+1]:
+				count = count +1
+				temp = True
+
+				x = a[i]
+
+			else:
+				b.append((count,a[i]))
