@@ -18,6 +18,10 @@ def fun_getaverage(s):
 		if i.isdigit():
 			a.append(int(i))
 	if len(a) != 0:
-		avf = sum(a)/ len(a)
-		
+		avg = sum(a)/ len(a)
+		return avg
+
+	else:
+		return False
+
 
