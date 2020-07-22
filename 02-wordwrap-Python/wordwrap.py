@@ -22,7 +22,7 @@ def fun_wordwrap(s, n):
 
 	for i in range(0, len(s),n):
 		for j in range(i, i+n):
-			if j >= len(S):
+			if j >= len(s):
 				break
 				
 			if s[j]== " ":
