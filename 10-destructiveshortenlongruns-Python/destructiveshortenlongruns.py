@@ -11,6 +11,7 @@
 # L = [2, 3, 5, 5, 5, 3]
 # shortenLongRuns(L, 3)
 # assert(L == [2, 3, 5, 5, 3])
+# HARITEJA
 
 def destructiveshortenlongruns(L, k):
 	# Your code goes here
