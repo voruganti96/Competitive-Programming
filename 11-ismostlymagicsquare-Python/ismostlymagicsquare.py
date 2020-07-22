@@ -30,4 +30,4 @@ def ismostlymagicsquare(a):
 		return False
 	
 	for i in range(0,n):
-		rsu
+		rsum
