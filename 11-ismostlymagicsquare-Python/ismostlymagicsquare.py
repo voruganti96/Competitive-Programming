@@ -15,4 +15,4 @@
 
 def ismostlymagicsquare(a):
 	# Your code goes here
-	pass
+	a
