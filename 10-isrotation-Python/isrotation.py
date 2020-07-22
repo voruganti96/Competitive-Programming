@@ -10,3 +10,7 @@ def isrotation(x, y):
 	x = str(x)
 	y = str(y)
 	
+	if len(x) !=len(y):
+		return False
+	if x ==y or y ==x[::-1]:
+		return true
