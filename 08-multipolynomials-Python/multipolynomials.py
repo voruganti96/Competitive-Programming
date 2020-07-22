@@ -6,10 +6,12 @@
 # And so this returns the list [8, 10, 12, 15].
 from numpy.polynomial import polynomial as poly
 from numpy import convolve
+
 def multipolynomials(p1, p2):
 	# Your code goes here
 	#res_list=[]
-	return poly.polymul(p1,p1)
+	#return poly.polymul(p1,p1)
+	return 
 	
 p1=(3,0,2)
 p2=(5,4)
