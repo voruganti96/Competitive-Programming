@@ -24,7 +24,7 @@ def shortenlongruns(L, k):
 
 		if count < k:
 			z.append(L[i])
-	if l[len(L)-1] != L[len(L) -2]:
+	if L[len(L)-1] != L[len(L) -2]:
 		z.append(L[len(L)-1])
 
 	return z
