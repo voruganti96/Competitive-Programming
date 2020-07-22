@@ -5,4 +5,6 @@
 
 def hasduplicates(L):
 	# Your code goes here
-	pass
+	s = set()
+
+	
