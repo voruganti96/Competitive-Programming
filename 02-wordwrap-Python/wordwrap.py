@@ -31,7 +31,8 @@ def fun_wordwrap(s, n):
 				a += s[j]
 
 		a += '\n'
-		
+
+	return a.strip()
 
 
  
