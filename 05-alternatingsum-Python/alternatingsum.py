@@ -7,7 +7,7 @@
 
 def fun_alternatingsum(a): 
 	if len(a ) != 0:
-		p = a[::2]
+		b = a[::2]
 		n = a[1::2]
 
 
