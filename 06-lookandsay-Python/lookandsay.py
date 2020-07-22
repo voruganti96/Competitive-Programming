@@ -31,4 +31,6 @@ def lookandsay(a):
 				b.append(count,a[i])
 				count = 1
 				temp = False
-				
+
+		
+		
