@@ -10,7 +10,8 @@ def isprime(n):
 	for i in range(2,n//2+1):
 		if n% i ==o:
 			return False
-			
+		else:
+			return True
 
 def fun_hasnoprimes(l):
 	return True
