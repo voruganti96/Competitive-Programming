@@ -9,4 +9,12 @@
 
 def lookandsay(a):
 	# Your code goes here
-	pass
+	if len(a) ==0:
+		return a
+	
+	else:
+		b = []
+
+		count = 1
+		z = 0
+		
