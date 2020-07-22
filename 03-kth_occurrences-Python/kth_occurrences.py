@@ -6,4 +6,3 @@
 
 def fun_kth_occurrences(s, n):
 	d = {}
-	
