@@ -38,3 +38,7 @@ def ismostlymagicsquare(a):
 			return False
 	for i in range(0,n):
 		csum = 0
+
+		for j in range(0,n):
+			csum += a[j][i]
+			
