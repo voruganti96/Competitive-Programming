@@ -30,7 +30,8 @@ def fun_wordwrap(s, n):
 			else:
 				a += s[j]
 
-		a += ''
+		a += '\n'
+		
 
 
  
