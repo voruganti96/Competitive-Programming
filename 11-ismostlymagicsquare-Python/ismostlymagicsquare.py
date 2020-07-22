@@ -50,3 +50,4 @@ def ismostlymagicsquare(a):
 
 # ZeroDivisionError
 # ZeroDivisionError
+# completed
