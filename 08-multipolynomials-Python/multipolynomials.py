@@ -11,7 +11,7 @@ def multipolynomials(p1, p2):
 	# Your code goes here
 	#res_list=[]
 	#return poly.polymul(p1,p1)
-	return convolve
+	return convolve(p1,p1)
 	
 p1=(3,0,2)
 p2=(5,4)
