@@ -8,6 +8,6 @@ from numpy.polynomial import polynomial as poly
 def multipolynomials(p1, p2):
 	# Your code goes here
 	res_list=[]
-	pol
+	poly.polymul(p1)
 	return res_list
 	
