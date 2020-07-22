@@ -17,5 +17,6 @@ def fun_getaverage(s):
 	for i in l:
 		if i.isdigit():
 			a.append(int(i))
-			
+	if len(a) != 0:
+		avf = sum(a)
 
