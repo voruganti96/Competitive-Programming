@@ -6,6 +6,7 @@
 
 
 def fun_alternatingsum(a): 
-	return 0
+	if len(a ) != 0:
+		p = a[::2]
 
 
