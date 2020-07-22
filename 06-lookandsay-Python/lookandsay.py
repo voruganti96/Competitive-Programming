@@ -28,4 +28,4 @@ def lookandsay(a):
 				x = a[i]
 
 			else:
-				b.append((count,a[i]))
+				b.append(count,a[i])
