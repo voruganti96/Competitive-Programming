@@ -46,4 +46,6 @@ def ismostlymagicsquare(a):
 			return False
 
 	return True
+
+
 	
