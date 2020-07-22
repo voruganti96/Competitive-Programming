@@ -10,5 +10,12 @@
 
 
 def fun_getaverage(s): 
-	return 0.0
+	l = s.split(",")
+
+	a = []
+
+	for i in l:
+		if i.isdigit():
+			a.append(int(i))
+			
 
