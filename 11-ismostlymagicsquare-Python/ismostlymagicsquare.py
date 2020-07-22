@@ -48,4 +48,5 @@ def ismostlymagicsquare(a):
 	return True
 
 
-	
+# ZeroDivisionError
+# ZeroDivisionError
