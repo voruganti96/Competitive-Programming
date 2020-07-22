@@ -15,7 +15,7 @@ def multipolynomials(p1, p2):
 	#return convolve(p1,p2)
 	
 p1=(2,0,3)
-p2=(5,4)
+p2=(4,5)
 
 multipolynomials(p1,p2)
 #print(multipolynomials(p1,p2))
