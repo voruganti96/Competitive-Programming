@@ -7,4 +7,8 @@ def hasduplicates(L):
 	# Your code goes here
 	s = set()
 
-	
+	for i in L:
+		for j in i:
+			if j in s:
+				return True
+				
