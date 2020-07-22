@@ -7,7 +7,7 @@
 
 def multipolynomials(p1, p2):
 	# Your code goes here
-	p1=[]
+	p1=[2,0,3],
 	res_list=[]
 	for i in range(0,len(p1)):
 		res_list.append(p1[i]*p2[i])
