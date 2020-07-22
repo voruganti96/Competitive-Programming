@@ -5,4 +5,9 @@
 
 
 def fun_kth_occurrences(s, n):
-	d = {}	
+	d = {}
+
+	for i in s:
+		if i in d:
+			d[i] = d[i] +1
+				
