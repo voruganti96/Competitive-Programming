@@ -28,4 +28,6 @@ def ismostlymagicsquare(a):
 	
 	if a1 != a2:
 		return False
-		
+	
+	for i in range(0,n):
+		rsu
