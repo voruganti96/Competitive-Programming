@@ -28,14 +28,13 @@ def lookandsay(a):
 				x = a[i]
 
 			else:
-				b.append(count,a[i])
+				b.append((count,a[i]))
 				count = 1
 				temp = False
 
 		
-		if temp == true:
+		if temp == True:
 			b.append(count,x)
 		if a[-1] != a[-2]:
-			b.append(1,a[-1])
+			b.append((1,a[-1]))
 		return b
-		
