@@ -33,4 +33,6 @@ def lookandsay(a):
 				temp = False
 
 		
-		
+		if temp == true:
+			b.append(count,x)
+			
