@@ -18,4 +18,19 @@ def isrotation(x, y):
 	for i in range(len(x)):
 		a = x.find(y[:i])
 		b = x[a:] + x[:a]
-		
+
+		if b ==y:
+			return True
+
+	
+	for i in range(len(y)):
+		a = y.find(x[:i])
+		b = y[a:]+ y[:a]
+		if b == x:
+			return True
+
+
+	return False
+
+
+
