@@ -27,7 +27,10 @@ def fun_wordwrap(s, n):
 				
 			if s[j]== " ":
 				a += '-'
-				
+			else:
+				a += s[j]
+
+			
 
 
  
