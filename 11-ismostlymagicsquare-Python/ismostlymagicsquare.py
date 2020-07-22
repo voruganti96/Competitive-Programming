@@ -19,4 +19,5 @@ def ismostlymagicsquare(a):
 
 	n = len(a[0])
 	for i in range(0,n):
-		a1 = a1+a[i]
+		a1 = a1+a[i][i]
+		
