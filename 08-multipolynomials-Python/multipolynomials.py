@@ -11,7 +11,7 @@ def multipolynomials(p1, p2):
 	return poly.polymul(p1,p1)
 	
 p1=(3,0,2)
-p2=(4,5)
+p2=(5,4)
 
 multipolynomials(p1,p2)
 print(multipolynomials(p1,p2))
