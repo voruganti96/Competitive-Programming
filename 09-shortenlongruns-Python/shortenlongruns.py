@@ -27,4 +27,9 @@ def shortenlongruns(L, k):
 	if L[len(L)-1] != L[len(L) -2]:
 		z.append(L[len(L)-1])
 
+
+
+
+		# sjadbjads
+
 	return z
