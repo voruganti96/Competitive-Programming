@@ -20,3 +20,9 @@ def fun_hasnoprimes(l):
 	return True
 
 
+	# Done
+
+
+	# hdpne
+
+
