@@ -17,4 +17,6 @@ def lookandsay(a):
 
 		count = 1
 		z = 0
+		temp = True
+
 		
