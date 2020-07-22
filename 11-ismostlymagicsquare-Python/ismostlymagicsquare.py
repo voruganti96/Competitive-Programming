@@ -33,4 +33,7 @@ def ismostlymagicsquare(a):
 		rsum = 0
 
 		for j in range(0,n):
-			rsum
+			rsum += a[i][j]
+		if rsum != a1:
+			return False
+			
