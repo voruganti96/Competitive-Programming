@@ -35,4 +35,7 @@ def lookandsay(a):
 		
 		if temp == true:
 			b.append(count,x)
-			
+		if a[-1] != a[-2]:
+			b.append(1,a[-1])
+		return b
+		
