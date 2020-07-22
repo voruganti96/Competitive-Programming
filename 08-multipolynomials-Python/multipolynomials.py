@@ -20,8 +20,6 @@ def multipolynomials(p1, p2):
 	return int_res
 
 	
-p1=(2,0,3)
-p2=(4,5)
 
-multipolynomials(p1,p2)
-print(multipolynomials(p1,p2))
+#multipolynomials(p1,p2)
+#print(multipolynomials(p1,p2))
