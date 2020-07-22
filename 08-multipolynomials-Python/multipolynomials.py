@@ -11,7 +11,7 @@ def multipolynomials(p1, p2):
 	# Your code goes here
 	p1=np.poly1d(p1)
 	p2=np.poly1d(p2)
-	print("P1:",p1)
+	print("P1:\n",p1)
 	print("P2:",p2)
 	#return convolve(p1,p2)
 	
