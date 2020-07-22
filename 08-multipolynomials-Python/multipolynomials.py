@@ -5,13 +5,14 @@
 # 5), and:    (2x**2 + 3)(4x + 5) = 8x**3 + 10x**2 + 12x + 15
 # And so this returns the list [8, 10, 12, 15].
 from numpy.polynomial import polynomial as poly
-from numpy import convolve
+import numpy as np
 
 def multipolynomials(p1, p2):
 	# Your code goes here
-	#res_list=[]
-	#return poly.polymul(p1,p1)
-	return convolve(p1,p2)
+	p1=np.poly1d(p1)
+	p1=np.poly1d(p1)
+	print()
+	#return convolve(p1,p2)
 	
 p1=(3,0,2)
 p2=(5,4)
