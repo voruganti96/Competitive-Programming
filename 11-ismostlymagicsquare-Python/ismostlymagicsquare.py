@@ -26,4 +26,6 @@ def ismostlymagicsquare(a):
 	for i in range(0,n):
 		a2 = a2+a[i][n-i-1]
 	
-	
+	if a1 != a2:
+		return False
+		
