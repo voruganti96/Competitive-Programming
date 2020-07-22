@@ -13,4 +13,7 @@ def isrotation(x, y):
 	if len(x) !=len(y):
 		return False
 	if x ==y or y ==x[::-1]:
-		return true
+		return True
+	
+	for i in range(len(x)):
+		a = x.find
