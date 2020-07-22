@@ -10,4 +10,7 @@
 
 def inverselookandsay(a):
 	# Your code goes here
-	pass
+	if len(a) ==0 and len(a) ==1:
+		return []
+
+		
