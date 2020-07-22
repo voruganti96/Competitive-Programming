@@ -8,6 +8,6 @@
 def fun_alternatingsum(a): 
 	if len(a ) != 0:
 		b = a[::2]
-		n = a[1::2]
+		c = a[1::2]
 
 
