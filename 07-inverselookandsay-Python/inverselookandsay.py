@@ -13,4 +13,13 @@ def inverselookandsay(a):
 	if len(a) ==0 and len(a) ==1:
 		return []
 
-		
+	b = []
+
+	for i in a:
+		try:
+			for j in range(i[0]):
+				b.append(i[1])
+		except:
+			e = 0
+
+	return b
