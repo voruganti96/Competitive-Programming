@@ -13,10 +13,14 @@ def multipolynomials(p1, p2):
 	p2=np.poly1d(p2)
 	print("P1:\n",p1)
 	print("P2:\n",p2)
-	#return convolve(p1,p2)
+	res_poly = poly.polymul(p1,p2)
+	i=[]
+	for i in res_poly:
+		int(i)
+
 	
 p1=(2,0,3)
 p2=(4,5)
 
 multipolynomials(p1,p2)
-#print(multipolynomials(p1,p2))
+print(multipolynomials(p1,p2))
