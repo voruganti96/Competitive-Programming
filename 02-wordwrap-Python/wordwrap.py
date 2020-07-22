@@ -26,7 +26,7 @@ def fun_wordwrap(s, n):
 				break
 				
 			if s[j]== " ":
-				a 
+				a += '-'
 
 
  
