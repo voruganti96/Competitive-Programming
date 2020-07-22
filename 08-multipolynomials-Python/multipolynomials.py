@@ -10,8 +10,8 @@ import numpy as np
 def multipolynomials(p1, p2):
 	# Your code goes here
 	p1=np.poly1d(p1)
-	p1=np.poly1d(p2)
-	print(p1,p2)
+	p2=np.poly1d(p2)
+	print("P:",p1,"p2)
 	#return convolve(p1,p2)
 	
 p1=(2,0,3)
