@@ -10,6 +10,8 @@ def fun_alternatingsum(a):
 		b = a[::2]
 		c = a[1::2]
 		result = sum(b) - sum(c)
-		
+		return result
+	else:
+		return 0
 
 
