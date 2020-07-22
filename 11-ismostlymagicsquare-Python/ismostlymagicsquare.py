@@ -30,4 +30,7 @@ def ismostlymagicsquare(a):
 		return False
 	
 	for i in range(0,n):
-		rsum
+		rsum = 0
+
+		for j in range(0,n):
+			rsum
