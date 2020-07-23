@@ -19,3 +19,6 @@ def fun_isfactorish(n):
 
 	count = 0
 
+	for i in a:
+		b.append
+
