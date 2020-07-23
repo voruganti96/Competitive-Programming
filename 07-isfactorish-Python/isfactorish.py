@@ -17,3 +17,5 @@ def fun_isfactorish(n):
 
 	b = []
 
+	count = 0
+
