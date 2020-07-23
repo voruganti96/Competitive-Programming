@@ -13,5 +13,5 @@ def longestdigitrun(n):
 
 	max_val = 1
 	max_num = n%10
-	
+	present_val = n%10
 	
