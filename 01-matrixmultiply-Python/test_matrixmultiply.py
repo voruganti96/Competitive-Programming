@@ -12,5 +12,5 @@ import pytest
 
 ])
 def test_fun_matrixmultiply(s1, s2, result):
-    assert fun_matrixmultiply(s1, s2) == result
+    assert fun_matrixmultiply(s1,s2) == result
 
