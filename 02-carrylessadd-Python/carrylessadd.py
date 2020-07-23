@@ -14,5 +14,5 @@ def fun_carrylessadd(x, y):
 
 	while(x !=0 or y!=0):
 		x_val = x%10
-		y_val = y
+		y_val = y%10
 
