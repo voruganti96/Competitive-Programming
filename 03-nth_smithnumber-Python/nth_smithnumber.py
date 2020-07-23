@@ -62,3 +62,5 @@ def is_prime(num):
     all_primes.append(num)
     return True
 
+print(verify(27))
+
