@@ -12,5 +12,8 @@
 
 
 def fun_isfactorish(n):
-	return False
+	l = abs(n)
+	a = str(l)
+
+	b = []
 
