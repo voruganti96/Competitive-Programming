@@ -28,5 +28,16 @@ def fun_isfactorish(n):
 				if n % b[i] ==0:
 					count = count +1
 
-				
+			else:
+				return False
+
+		if count == len(b):
+			return True
+		else:
+			return False
+
+
+	else:
+		return False
+		
 
