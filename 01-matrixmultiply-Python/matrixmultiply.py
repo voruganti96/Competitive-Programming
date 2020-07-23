@@ -11,8 +11,6 @@ def fun_matrixmultiply(m1, m2):
     
 
     result = []
-
-
     for i in range(len(m1)):
         l = []
         for j in range(len(m2[0])):
