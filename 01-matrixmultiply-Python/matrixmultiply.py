@@ -24,7 +24,9 @@ def fun_matrixmultiply(m1, m2):
 
         result.append(l)
 
-        
+    return result
+
+    
 
 
 
