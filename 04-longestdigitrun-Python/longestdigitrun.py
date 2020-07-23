@@ -4,6 +4,14 @@
 # run, or the smallest such digit if there is a tie. So, longestDigitRun(117773732) returns 7 (
 # because there is a run of 3 consecutive 7's), 
 # as does longestDigitRun(-677886).
+from collections import Counter
+
 def longestdigitrun(n):
 	# Your code goes here
-	pass
+
+	n = abs(n)
+
+	max_val = 1
+	max_num = n%10
+	
+	
