@@ -20,3 +20,9 @@ def fun_carrylessadd(x, y):
 
 		factor = factor*10
 
+		x = x//10
+		y = y//10
+
+	return result
+	
+
