@@ -13,4 +13,5 @@ def fun_nth_smithnumber(n):
     starting_number = 3
 
     while( present_number <= n):
-        starting
+        starting_number +=1
+        all_factors
