@@ -5,7 +5,10 @@
 
 
 def fun_matrixmultiply(m1, m2):
-    return None
+    for i in m1:
+        if len(i) !=len(m2):
+            return None
+        
 
 
 
