@@ -48,8 +48,7 @@ def verify(num):
 
     if(result == num_result):
         return True
-    else:
-        return False
+    return False
 
 
 all_primes = [2]
