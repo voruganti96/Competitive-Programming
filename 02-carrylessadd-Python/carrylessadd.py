@@ -16,3 +16,5 @@ def fun_carrylessadd(x, y):
 		x_val = x%10
 		y_val = y%10
 
+		result += factor * ((x_val + y_val ) %10)
+
