@@ -9,4 +9,5 @@
 
 
 def fun_nth_smithnumber(n):
-    return 1
+    present_number =0
+    
