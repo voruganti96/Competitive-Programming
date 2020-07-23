@@ -22,3 +22,11 @@ def fun_isfactorish(n):
 	for i in a:
 		b.append(int(i))
 
+	if len(b) == 3 and leb(b) == len(set(b)):
+		for i in range(len(b)):
+			if b[i] !=0:
+				if n % b[i] ==0:
+					count = count +1
+
+				
+
