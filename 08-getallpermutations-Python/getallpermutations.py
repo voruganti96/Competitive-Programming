@@ -8,5 +8,7 @@ def getallpermutations(s):
 	p_list = permutations(s)
 	for p in p_list:
 		print("".join(p))
-
+list =[]
 p_list =  permutations("abc")
+for p in p_list:
+	list.append(p)
