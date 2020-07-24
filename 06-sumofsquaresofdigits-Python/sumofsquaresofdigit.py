@@ -6,4 +6,4 @@
 
 def sumofsquaresofdigit(n):
 	# Your code goes here
-	pass
+	string = str
