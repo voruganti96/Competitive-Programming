@@ -11,4 +11,4 @@ def getallpermutations(str):
 		list.append(p)
 	print(list)
 
-#pytegetallpermutations("abc")
+#getallpermutations("abc")
