@@ -16,7 +16,7 @@ def sumofsquaresofdigit(n):
     for i in range(0,len(string)):	list.append((int(string[i]))**2)
     return sum(l)
 
-def ishappyprimenumber(n):
+def ishappynumber(n):
     sos =sumofsquaresofdigit(n)
     while sos == 4 or sos ==1:
         sos = sumofsquaresofdigit(sos)
