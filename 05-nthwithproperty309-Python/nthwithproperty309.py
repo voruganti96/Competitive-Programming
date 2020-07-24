@@ -20,4 +20,7 @@ def nthwithproperty309(n):
 				break
 
 		if(not flag):
-			
+			present_num += 1
+		starting_num += 1
+
+	
