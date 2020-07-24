@@ -13,7 +13,7 @@ def samechars(s1, s2):
 	print("Sorted keys of 2nd string:",s1)
 	if s1 == s2:
 		return True
-		p
+		print()
 
 
 
