@@ -6,4 +6,5 @@
 
 def sumofsquaresofdigit(n):
 	# Your code goes here
-	string = str
+	string = str(n)
+	
