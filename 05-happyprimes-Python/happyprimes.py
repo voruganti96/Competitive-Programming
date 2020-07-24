@@ -25,7 +25,6 @@ def ishappynumber(n):
         print(sos)
     if sos ==4:
         return False
-        print
     else:
         return True
 
