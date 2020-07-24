@@ -34,7 +34,6 @@ def nthHappyNumber(n):
     return(l)
     n=l[n-1]
     print(n,'th','Happy Number: =>',n)
-    
     return n
 
 
