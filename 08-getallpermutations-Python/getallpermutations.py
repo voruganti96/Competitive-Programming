@@ -12,3 +12,4 @@ list =[]
 p_list =  permutations("abc")
 for p in p_list:
 	list.append(p)
+print()
