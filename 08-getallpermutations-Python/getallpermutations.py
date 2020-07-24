@@ -8,3 +8,4 @@ def getallpermutations(s):
 	p_list = permutations(s)
 	for p in p_list:
 		print("".join(p))
+
