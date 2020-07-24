@@ -28,6 +28,6 @@ def ishappynumber(n):
     else:
         return True
 
-print(sumofsquaresofdigit(13))
+
 print(ishappynumber(13))
 
