@@ -17,5 +17,7 @@ def sumofsquaresofdigit(n):
     return sum(l)
 
 def ishappyprimenumber(n):
-    # Your code goes here
+    while sumofsquaresofdigit(n) == 4 or sumofsquaresofdigit(n) ==1:
+        sum
+
     pass
