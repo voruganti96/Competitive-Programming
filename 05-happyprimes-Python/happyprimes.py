@@ -30,13 +30,13 @@ def ishappynumber(n):
 
 def happy_list():
     l = []
-    for i in range(0,100):
+    for i in range(1,100):
         if ishappynumber(i): l.append(ishappynumber(i))
     print(l)
 
 
 
 #print(ishappynumber(14))
-happy_list
+happy_list()
 
 
