@@ -46,7 +46,9 @@ def nthHappyNumber(n):
     for i in range(1,1000):
         if ishappynumber(i) == True: happy_list.append(i)
     #print("Happy Numbers List:\n",happy_list)
-    if n >= len(happy_list):return None
+    if n >= len(happy_list):
+        return None
+        bre
     x+=(happy_list[n-1])
     #print(n,'th','Happy Number =>',x)
     return x
