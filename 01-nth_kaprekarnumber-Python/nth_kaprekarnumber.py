@@ -27,4 +27,6 @@ def fun_nth_kaprekarnumber(n):
                 if((int(left) + right) == num):
                     i = i+1
                     break
-        
+        num = num +1
+
+    retur
