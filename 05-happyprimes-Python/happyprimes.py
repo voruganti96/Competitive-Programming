@@ -38,6 +38,7 @@ def nthHappyNumber(n):
     print(happy_list[n-1])
 
 
-#happy_list()
+happy_list()
+
 
 
