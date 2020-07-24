@@ -8,6 +8,7 @@
 def samechars(s1, s2):
 	# Your code goes here
 	s1=sorted(list(set(p1)))
+	s2=sorted(list(set(p1)))
 
 p1="01alice"
 
