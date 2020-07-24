@@ -13,9 +13,11 @@ def samechars(p1, p2):
 	print("Sorted keys of 2nd string:",s2)
 
 	if s1 == s2:
-		print("==sAmE_cHaRs==")
+		#print("==sAmE_cHaRs==")
 		return True
-
-#str1 = str(input("Enter string_1:"))
-#str2 = str(input("Enter string_2:"))
-#print(samechars(str1,str2))
+	#print("XXXXXXXXXXX")
+"""
+str1 = str(input("Enter string_1:"))
+str2 = str(input("Enter string_2:"))
+samechars(str1,str2)
+"""
