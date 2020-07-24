@@ -12,7 +12,7 @@ def samechars(s1, s2):
 	if s1.issubset(s2) and s1.issubset(s2):
 		return True
 
-p1=set("01alice")
+p1="01alice"
 
 p2=set("alice0112")
 print(samechars(p1,p2))
