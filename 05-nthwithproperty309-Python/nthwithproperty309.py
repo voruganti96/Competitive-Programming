@@ -12,4 +12,4 @@ def nthwithproperty309(n):
 	while present_num <= n:
 		result = str(starting_num **5)
 
-		
+		flag = False
