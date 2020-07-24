@@ -9,4 +9,5 @@ def sumofsquaresofdigit(n):
 	string = str(n)
 	for i in range(0,len(str)):
 		print(i)
-		
+	
+
