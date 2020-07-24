@@ -15,3 +15,4 @@ p2="alice011hlh2"
 
 print(set(p1))
 print(list(set(p1)))
+print(list(set(p1)))
