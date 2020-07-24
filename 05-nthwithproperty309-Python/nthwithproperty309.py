@@ -6,4 +6,8 @@
 
 def nthwithproperty309(n):
 	# Your code goes here
-	pass
+	present_num = 0
+	starting_num = 1
+
+	while present_num <= n:
+		resu
