@@ -10,11 +10,12 @@ def samechars(p1, p2):
 	s1=sorted(list(set(p1)))
 	print("Sorted keys of 1st string:",s1)
 	s2=sorted(list(set(p2)))
-	print("Sorted keys of 2nd string:",s1)
+	print("Sorted keys of 2nd string:",s2)
 
 	if s1 == s2:
 		print("==sAmE_cHaRs==")
 		return True
 
-str1
-samechars("abcabcabc123", "123abc123")
+#str1 = str(input("Enter string_1:"))
+#str2 = str(input("Enter string_2:"))
+#print(samechars(str1,str2))
