@@ -8,9 +8,9 @@
 def samechars(p1, p2):
 	
 	s1=sorted(list(set(p1)))
-	#print("Sorted keys of 1st string:",s1)
+	print("Sorted keys of 1st string:",s1)
 	s2=sorted(list(set(p2)))
-	#print("Sorted keys of 2nd string:",s1)
+	print("Sorted keys of 2nd string:",s1)
 
 	if s1 == s2:
 		print("==sAmE_cHaRs==")
