@@ -4,4 +4,4 @@
 from itertools import permutations
 def getallpermutations(str):
 	# Your code goes here
-	p_list = permutations
+	p_list = permutations(str)
