@@ -29,4 +29,4 @@ def fun_nth_kaprekarnumber(n):
                     break
         num = num +1
 
-    retur
+    return num-1
