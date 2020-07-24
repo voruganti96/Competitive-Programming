@@ -36,6 +36,7 @@ def ishappynumber(n):
     else:return True
 
 def ishappyprimenumber(n):
+    
     if isprime(n) and ishappynumber(n): return True
     
    
@@ -59,7 +60,7 @@ def nthHappyNumber(n):
 #nthHappyNumber(position)
 #print(nthHappyNumber(6))
 
-ishappyprimenumber(90)
+print(ishappynumber(904))
 
 
 
