@@ -21,4 +21,4 @@ p1="01alice"
 
 p2="alice01"
 
-sa
+samechars(p1,p2)
