@@ -22,3 +22,4 @@ def ishappynumber(n):
         sos = sumofsquaresofdigit(sos)
     if sos ==4: return False
     
+    
