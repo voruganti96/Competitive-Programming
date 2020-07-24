@@ -13,7 +13,6 @@ p1="01alice"
 
 p2="alice011hlh2"
 
-(set(p1))
 print(set(p1))
 print(list(set(p1)))
 print(list(set(p1)))
