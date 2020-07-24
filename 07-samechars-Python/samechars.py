@@ -12,8 +12,9 @@ def samechars(s1, s2):
 	s2=sorted(list(set(p2)))
 	print("Sorted keys of 2nd string:",s1)
 	if s1 == s2:
-		return True
 		print("sAmE=cHaRs")
+		return True
+		
 
 
 
