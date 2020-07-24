@@ -7,3 +7,4 @@ def getallpermutations(str):
 	p_list = permutations(str)
 	for p in p_list:
 		print("".join(p))
+		
