@@ -5,9 +5,9 @@
 # case-sensitive, so "ABC" and "abc" do not contain the same characters. The function returns False if either 
 # parameter is not a string, but returns True if both strings are empty (why?).
 
-def samechars(s1, p2):
+def samechars(p1, p2):
 	
-	p1=sorted(list(set(s1)))
+	s1=sorted(list(set(p1)))
 	#print("Sorted keys of 1st string:",s1)
 	s2=sorted(list(set(p2)))
 	#print("Sorted keys of 2nd string:",s1)
