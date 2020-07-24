@@ -36,7 +36,7 @@ def happy_list():
 
 
 
-print(ishappynumber(13))
+print(ishappynumber(7))
 #happy_list()
 
 
