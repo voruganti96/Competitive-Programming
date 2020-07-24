@@ -29,13 +29,16 @@ def ishappynumber(n):
         return True
 
 def happy_list():
+    pass
+   
+
+def nthHappyNumber(n):
     l = []
     for i in range(1,1000):
         if ishappynumber(i): l.append(i)
     return(l)
-
-def nthHappyNumber(n):
-    #print(n+"th"+"Happy Number: => "+happy_list[n-1])
+    l=str(l[n-1])
+    print(n,'th','Happy Number: =>',l)
     
     return nthHappyNumber
 
