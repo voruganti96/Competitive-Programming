@@ -12,4 +12,4 @@ def samechars(s1, s2):
 
 p1="01alice"
 p2="alice01"
-samechars(p1,p2)
+print(samechars(p1,p2))
