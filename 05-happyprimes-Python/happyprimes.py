@@ -35,7 +35,7 @@ def happy_list():
     print(l)
 
 def nthHappyNumber(n):
-    print()
+    print(happy_list[n-1])
 
 
 print(ishappynumber(7))
