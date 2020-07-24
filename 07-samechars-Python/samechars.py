@@ -21,6 +21,3 @@ p1="01alice"
 
 p2="alice01"
 
-#print(set(p1))
-print()
-print(list(set(p2)))
