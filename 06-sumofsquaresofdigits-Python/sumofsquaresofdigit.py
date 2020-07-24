@@ -8,4 +8,4 @@ def sumofsquaresofdigit(n):
 	# Your code goes here
 	string = str(n)
 	for i in range(0,len(str)):
-		print i
+		print(i)
