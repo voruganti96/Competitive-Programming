@@ -17,5 +17,6 @@ def longestdigitrun(n):
 
 	count = 0
 	while( n !=0):
+		rem = n%10
 		
 	
