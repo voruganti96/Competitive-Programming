@@ -29,6 +29,7 @@ def happy_list():
 
 def nthHappyNumber(n):
     l = []
+    n=""
     for i in range(1,1000):
         if ishappynumber(i) == True: l.append(i)
     return(l)
