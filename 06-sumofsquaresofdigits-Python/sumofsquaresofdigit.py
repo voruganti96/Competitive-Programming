@@ -9,6 +9,6 @@ def sumofsquaresofdigit(n):
 	string = str(n)
 	list = []
 	for i in range(0,len(string)):
-		print((int(string[i]))**2)
+		list.append((int(string[i]))**2)
 	
 sumofsquaresofdigit(234)
