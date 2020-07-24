@@ -8,7 +8,7 @@
 def samechars(s1, s2):
 	# Your code goes here
 	s1=set(s1)
-	s2=set("s2")
+	s2=set(s2)
 	if s1.issubset(s2) and s1.issubset(s2):
 		return True
 
