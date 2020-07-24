@@ -36,6 +36,12 @@ def ishappynumber(n):
     else:return True
 
 def ishappyprimenumber(n):
+    happy_list = []
+    x=0
+    for i in range(1,10000):
+        if ishappynumber(i) == True: happy_list.append(i)
+    #print("Happy Numbers List:\n",happy_list)
+    #print("List_length:",len(happy_list))
     if isprime(n) and ishappynumber(n): return True
     
    
