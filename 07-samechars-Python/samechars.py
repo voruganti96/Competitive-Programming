@@ -12,6 +12,6 @@ def samechars(s1, s2):
 
 p1=set("01alice")
 
-p2=set("alice01")
+p2=set("alice011")
 print(samechars(p1,p2))
 #print(set(p1))
