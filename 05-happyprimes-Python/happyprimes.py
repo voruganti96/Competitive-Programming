@@ -58,7 +58,7 @@ def nthHappyNumber(n):
 n = 7
 print(isprime(n))
 print(ishappynumber(n))
-print(nthHappyNumber(2))
+print(nthHappyNumber(6))
 
 
 
