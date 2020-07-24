@@ -16,6 +16,18 @@ def sumofsquaresofdigit(n):
     for i in range(0,len(string)):	l.append((int(string[i]))**2)
     return sum(l)
 
+def isprime(n):
+	flag = 0
+	for i in range(1, n+1,1):
+		if n % i ==0:
+			flag = flag +1
+	if flag ==2:
+		return True
+	else:
+		return False
+
+
+
 def ishappynumber(n):
     sos =sumofsquaresofdigit(n)
     #print("Sum of Squares:",sos)
@@ -24,8 +36,8 @@ def ishappynumber(n):
     else:return True
 
 def ishappyprimenumber(n):
+    if isprime(n) and ishappynumber(n): return
     
-    pass
    
 
 def nthHappyNumber(n):
