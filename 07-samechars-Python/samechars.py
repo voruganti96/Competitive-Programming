@@ -15,4 +15,4 @@ def samechars(p1, p2):
 	if s1 == s2:
 		print("==sAmE_cHaRs==")
 		return True
-samechars("abcabcabc123", "abc")
+samechars("abcabcabc123", "123abc")
