@@ -9,4 +9,7 @@ def samechars(s1, s2):
 	# Your code goes here
 	if set(s1) in set(s2) and set(s1) in set(s2):
 		return True
-samechars()
+
+p1="01alice"
+p2="alice01"
+samechars(p1,p2)
