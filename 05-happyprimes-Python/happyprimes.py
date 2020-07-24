@@ -19,11 +19,9 @@ def sumofsquaresofdigit(n):
 def ishappynumber(n):
     sos =sumofsquaresofdigit(n)
     #print("Sum of Squares:",sos)
-    while sos != 4 and sos != 1:
-        sos = sumofsquaresofdigit(sos)
+    while sos != 4 and sos != 1:sos = sumofsquaresofdigit(sos)
     if sos ==4:return False
-    else:
-        return True
+    else:return True
 
 def happy_list():
     pass
