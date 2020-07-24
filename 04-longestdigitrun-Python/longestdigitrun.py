@@ -29,7 +29,7 @@ def longestdigitrun(n):
 			max_val = count
 			max_num = present_val
 		elif( count == max_val):
-			max_val = countmax_num = min(max_num, present_value)
+			max_val = countmax_num = min(max_num, present_val)
 
 		n = n//10
 
@@ -37,5 +37,5 @@ def longestdigitrun(n):
 	return max_num
 
 
-print(longestdigitrun(-))
+print(longestdigitrun(-677886))
 	
