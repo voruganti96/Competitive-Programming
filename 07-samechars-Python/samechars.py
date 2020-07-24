@@ -6,7 +6,7 @@
 # parameter is not a string, but returns True if both strings are empty (why?).
 
 def samechars(s1, s2):
-	# Your code goes here
+	
 	s1=sorted(list(set(p1)))
 	#print("Sorted keys of 1st string:",s1)
 	s2=sorted(list(set(p2)))
