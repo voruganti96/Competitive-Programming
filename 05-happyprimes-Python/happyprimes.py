@@ -28,5 +28,5 @@ def ishappynumber(n):
         return True
 
 print(sumofsquaresofdigit(15))
-print(ishappynumber(4))
+print(ishappynumber(15))
 
