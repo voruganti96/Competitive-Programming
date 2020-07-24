@@ -21,4 +21,5 @@ def fun_nth_kaprekarnumber(n):
         power = str(power)
 
         for j in range(1,len(power)):
-            left = power
+            left = power[:j]
+            right = int(power[j:])
