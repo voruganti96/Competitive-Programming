@@ -3,7 +3,7 @@
 # digit (from 0 to 9) at least once. 309 is the smallest number with this property. 
 # Write the function nthWithProperty309 that takes a non-negative int n and returns 
 # the nth number with Property309.
-
+digits = [""""]
 def nthwithproperty309(n):
 	# Your code goes here
 	present_num = 0
