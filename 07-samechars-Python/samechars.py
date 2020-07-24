@@ -5,14 +5,14 @@
 # case-sensitive, so "ABC" and "abc" do not contain the same characters. The function returns False if either 
 # parameter is not a string, but returns True if both strings are empty (why?).
 
-def samechars(str, *args):
+def samechars(s1, s2):
 	# Your code goes here
-	s1=
+	s1=sorted(list(set(p1)))
 
 p1="01alice"
 
 p2="alice011hlh2"
 
 #print(set(p1))
-print(sorted(list(set(p1))))
+print()
 print(list(set(p2)))
