@@ -38,7 +38,6 @@ def nthHappyNumber(n):
     print(happy_list[n-1])
 
 
-print(ishappynumber(7))
 #happy_list()
 
 
