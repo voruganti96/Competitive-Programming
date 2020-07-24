@@ -37,6 +37,6 @@ def happy_list():
 
 
 #print(ishappynumber(14))
-
+happy_list
 
 
