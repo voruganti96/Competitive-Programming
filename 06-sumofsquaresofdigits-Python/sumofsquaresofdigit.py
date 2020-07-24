@@ -10,4 +10,4 @@ def sumofsquaresofdigit(n):
 	for i in range(0,len(str)):
 		print(i)
 	
-sum
+sumofsquaresofdigit()
