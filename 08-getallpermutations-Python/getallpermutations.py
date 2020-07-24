@@ -3,10 +3,10 @@
 # your program should print all 6 permutations e.g. [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
 from itertools import permutations
 
-def getallpermutations(string):
+def getallpermutations(str):
 	# Your code goes here
 	list = []
-	p_list = permutations(string)
+	p_list = permutations(str)
 	for p in p_list:
 		list.append(p)
 	print(list)
