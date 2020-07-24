@@ -10,7 +10,6 @@ def getallpermutations(s):
 		print("".join(p))
 list =[]
 p_list =  permutations("abc")
-print(type(p_list))
 for p in p_list:
 	list.append(p)
 print(list)
