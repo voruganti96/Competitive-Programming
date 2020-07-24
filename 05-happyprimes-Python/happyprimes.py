@@ -48,7 +48,7 @@ def nthHappyNumber(n):
     #print("Happy Numbers List:\n",happy_list)
     if n >= len(happy_list):
         return None
-        bre
+        break
     x+=(happy_list[n-1])
     #print(n,'th','Happy Number =>',x)
     return x
