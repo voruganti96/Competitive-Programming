@@ -35,4 +35,7 @@ def longestdigitrun(n):
 
 
 	return max_num
+
+
+print(longestdigitrun(-))
 	
