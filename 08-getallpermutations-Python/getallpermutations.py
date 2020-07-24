@@ -5,7 +5,7 @@ from itertools import permutations
 
 def getallpermutations(s):
 	# Your code goes here
-	
+	str
 	list = []
 	p_list = permutations(s)
 	for p in p_list:
