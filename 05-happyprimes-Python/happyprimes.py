@@ -25,5 +25,5 @@ def ishappynumber(n):
     else:
         return True
 
-print(ishappynumber(11))
+print(ishappynumber(4))
 
