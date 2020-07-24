@@ -18,6 +18,7 @@ def sumofsquaresofdigit(n):
 
 def ishappynumber(n):
     sos =sumofsquaresofdigit(n)
+    print(sos)
     while sos == 4 or sos ==1:
         sos = sumofsquaresofdigit(sos)
         print(sos)
