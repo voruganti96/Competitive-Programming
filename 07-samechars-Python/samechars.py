@@ -7,7 +7,7 @@
 
 def samechars(str, *args):
 	# Your code goes here
-	pass
+	s1=
 
 p1="01alice"
 
