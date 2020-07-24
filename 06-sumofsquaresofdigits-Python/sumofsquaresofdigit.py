@@ -10,4 +10,4 @@ def sumofsquaresofdigit(n):
 	for i in range(0,len(string)):
 		print((int(string[i]))**2)
 	
-sumofsquaresofdigit(67567000)
+sumofsquaresofdigit(5)
