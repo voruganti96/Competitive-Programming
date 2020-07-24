@@ -3,13 +3,12 @@
 # your program should print all 6 permutations e.g. [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
 from itertools import permutations
 
-def getallpermutations(s):
+def getallpermutations(string):
 	# Your code goes here
-	string = str(s)
 	list = []
 	p_list = permutations(string)
 	for p in p_list:
 		list.append(p)
 	print(list)
-s="abc"
-getallpermutations(s)
+
+getallpermutations("abc")
