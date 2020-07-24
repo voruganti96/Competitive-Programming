@@ -34,7 +34,7 @@ def nthHappyNumber(n):
         if ishappynumber(i) == True: l.append(i)
     return(l)
     n.join(l[n-1])
-    #print(n,'th','Happy Number: =>',n)
+    print(n,'th','Happy Number: =>',n)
     return l
 
 
