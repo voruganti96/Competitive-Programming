@@ -28,6 +28,5 @@ def ishappynumber(n):
     else:
         return True
 
-
 print(ishappynumber(14))
 
