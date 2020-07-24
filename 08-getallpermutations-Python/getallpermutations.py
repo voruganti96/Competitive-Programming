@@ -9,6 +9,6 @@ def getallpermutations(str):
 	p_list = permutations(str)
 	for p in p_list:
 		list.append(p)
-	print(list)
+	return (list)
 
 getallpermutations("xyz")
