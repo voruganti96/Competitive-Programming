@@ -20,7 +20,7 @@ def ishappynumber(n):
     sos =sumofsquaresofdigit(n)
     print("Sum of Squares:",sos)
 
-    while sos != 4 or sos ==1:
+    while sos != 4 and sos != 1:
         sos = sumofsquaresofdigit(sos)
         print(sos)
     if sos ==4:
@@ -28,6 +28,6 @@ def ishappynumber(n):
     else:
         return True
 
-print(sumofsquaresofdigit(15))
-print(ishappynumber(15))
+print(sumofsquaresofdigit(4))
+print(ishappynumber(4))
 
