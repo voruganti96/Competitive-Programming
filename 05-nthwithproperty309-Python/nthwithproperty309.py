@@ -10,4 +10,4 @@ def nthwithproperty309(n):
 	starting_num = 1
 
 	while present_num <= n:
-		resu
+		result = str
