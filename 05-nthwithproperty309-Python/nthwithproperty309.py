@@ -24,3 +24,5 @@ def nthwithproperty309(n):
 		starting_num += 1
 
 	return starting_num -1
+
+print(nthwithproperty309(1))
