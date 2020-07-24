@@ -13,3 +13,11 @@ def nthwithproperty309(n):
 		result = str(starting_num **5)
 
 		flag = False
+
+		for i in digits:
+			if i not in result:
+				flag = True
+				break
+
+		if(not flag):
+			
