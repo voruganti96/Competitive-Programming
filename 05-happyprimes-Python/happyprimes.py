@@ -30,7 +30,7 @@ def ishappynumber(n):
 
 def happy_list():
     l = []
-    for i in range(1,100):
+    for i in range(1,1000):
         if ishappynumber(i): l.append(i)
     print(l)
 
