@@ -55,8 +55,8 @@ def nthHappyNumber(n):
 #position = int(input("Please enter a value for 'n':"))
 #nthHappyNumber(position)
 n = 2
-isprime(n)
-ishappynumber(n)
+print(isprime(n))
+print(ishappynumber(n))
 
 
 
