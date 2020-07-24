@@ -10,7 +10,3 @@ def sumofsquaresofdigit(n):
 	list = []
 	for i in range(0,len(string)):	list.append((int(string[i]))**2)  
 	return sum(list)
-	
-	
-sumofsquaresofdigit(234)
-print(sumofsquaresofdigit(5))
