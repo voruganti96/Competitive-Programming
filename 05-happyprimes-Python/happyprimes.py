@@ -36,7 +36,7 @@ def ishappynumber(n):
     else:return True
 
 def ishappyprimenumber(n):
-    if isprime(n) and ishappynumber(n): return
+    if isprime(n) and ishappynumber(n): return True
     
    
 
