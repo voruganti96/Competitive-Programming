@@ -10,7 +10,7 @@ def samechars(s1, s2):
 	s1=sorted(list(set(p1)))
 	s2=sorted(list(set(p2)))
 	if s1 == s2:
-		ret
+		return True
 
 
 
