@@ -30,7 +30,7 @@ def happy_list():
 def nthHappyNumber(n):
     l = []
     for i in range(1,1000):
-        if ishappynumber(i) == Tre: l.append(i)
+        if ishappynumber(i) == True: l.append(i)
     return(l)
     n=l[n-1]
     print(n,'th','Happy Number: =>',n)
