@@ -8,7 +8,7 @@
 def samechars(s1, s2):
 	# Your code goes here
 	s1=sorted(list(set(p1)))
-	print("Sortedv")
+	print("Sorted keys")
 	s2=sorted(list(set(p2)))
 	if s1 == s2:
 		return True
