@@ -7,7 +7,7 @@
 
 def samechars(s1, s2):
 	# Your code goes here
-	if set(s1) in set(s2) and set(s1) in set(s2):
+	if s1 in set(s2) and set(s1) in set(s2):
 		return True
 
 p1="01alice"
