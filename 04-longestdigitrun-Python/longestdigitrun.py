@@ -22,5 +22,8 @@ def longestdigitrun(n):
 			count = count +1
 
 		else:
-			present_va
+			present_val = rem
+			count = 1
+
+		
 	
