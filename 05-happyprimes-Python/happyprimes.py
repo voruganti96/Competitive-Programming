@@ -23,7 +23,8 @@ def ishappynumber(n):
     if sos ==4:return False
     else:return True
 
-def ishappyprimenumber():
+def ishappyprimenumber(n):
+    
     pass
    
 
