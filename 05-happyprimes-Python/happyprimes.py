@@ -23,5 +23,5 @@ def ishappynumber(n):
     if sos ==4: return False
     else: return True
 
-print(ishappynumber(13))
+print(ishappynumber(11))
 
