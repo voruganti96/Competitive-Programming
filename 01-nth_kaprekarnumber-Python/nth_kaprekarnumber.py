@@ -10,4 +10,14 @@
 import math
 
 def fun_nth_kaprekarnumber(n):
-    return 1;
+    if ( n==0):
+        return 1
+
+    n = n+1
+    i =1
+    num = 8
+    while(i <n):
+        power = num*num
+        power = str(power)
+
+        
