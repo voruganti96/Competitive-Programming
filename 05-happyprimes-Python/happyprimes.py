@@ -13,7 +13,7 @@
 def sumofsquaresofdigit(n):
     l = []
     string = str(n)
-    for i in range(0,len(string)):	list.append((int(string[i]))**2)
+    for i in range(0,len(string)):	l.append((int(string[i]))**2)
     return sum(l)
 
 def ishappynumber(n):
@@ -22,4 +22,6 @@ def ishappynumber(n):
         sos = sumofsquaresofdigit(sos)
     if sos ==4: return False
     else: return True
+
+ishappynumber(13)
 
