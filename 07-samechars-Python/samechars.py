@@ -5,15 +5,15 @@
 # case-sensitive, so "ABC" and "abc" do not contain the same characters. The function returns False if either 
 # parameter is not a string, but returns True if both strings are empty (why?).
 
-def samechars(s1, s2):
+def samechars(str, *args):
 	# Your code goes here
-	s1=set(s1)
-	s2=set(s2)
-	if s1.issubset(s2) and s1.issubset(s2):
-		return True
+	pass
 
 p1="01alice"
 
 p2="alice011hlh2"
-print(samechars(p1,p2))
-#print(set(p1))
+
+print(set(p1))
+print(set(p1))
+print(list(set(p1)))
+print(list(set(p1)))
