@@ -62,7 +62,7 @@ def nthHappyNumber(n):
 #nthHappyNumber(position)
 #print(nthHappyNumber(6))
 
-print(ishappynumber(904))
+#print(ishappynumber(904))
 
 
 
