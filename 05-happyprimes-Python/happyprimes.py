@@ -21,4 +21,4 @@ def ishappyprimenumber(n):
     while sos == 4 or sos ==1:
         sos = sumofsquaresofdigit(sos)
 
-    pass
+    
