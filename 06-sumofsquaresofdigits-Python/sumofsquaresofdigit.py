@@ -8,7 +8,7 @@ def sumofsquaresofdigit(n):
 	# Your code goes here
 	string = str(n)
 	list = []
-	for i in range(0,len(string)):list.append((int(string[i]))**2)  
+	for i in range(0,len(string)):	list.append((int(string[i]))**2)  
 	return sum(list)
 	
 	
