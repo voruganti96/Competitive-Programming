@@ -21,7 +21,6 @@ def ishappynumber(n):
     #print("Sum of Squares:",sos)
     while sos != 4 and sos != 1:
         sos = sumofsquaresofdigit(sos)
-        #print(sos)
     if sos ==4:
         return False
     else:
