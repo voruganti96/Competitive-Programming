@@ -28,5 +28,6 @@ def longestdigitrun(n):
 		if( count > max_val):
 			max_val = count
 			max_num = present_val
-			
+		elif( count == max_val):
+			max_val = countmax_num = min(max_num)
 	
