@@ -5,4 +5,5 @@ from itertools import permutations
 def getallpermutations(str):
 	# Your code goes here
 	p_list = permutations(str)
-	
+	for p in p_list:
+		print("".join(p))
