@@ -32,7 +32,7 @@ def nthHappyNumber(n):
     for i in range(1,1000):
         if ishappynumber(i): l.append(i)
     return(l)
-    l=str(l[n-1])
+    n=str(l[n-1])
     print(n,'th','Happy Number: =>',l)
     
     return l
