@@ -15,12 +15,3 @@ def samechars(s1, s2):
 		print("==sAmE_cHaRs==")
 		return True
 		
-
-
-
-
-p1="01alice"
-
-p2="alice01"
-
-samechars(p1,p2)
