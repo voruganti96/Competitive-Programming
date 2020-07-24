@@ -34,6 +34,8 @@ def happy_list():
         if ishappynumber(i): l.append(i)
     print(l)
 
+def nthHappyNumber(n):
+    print()
 
 
 print(ishappynumber(7))
