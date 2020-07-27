@@ -19,3 +19,8 @@ def leastfrequentletters(s):
 			d[i] = s.count(i)
 	keys = list(d.keys())
 	values = list(d.values())
+
+	l = []
+	for i in range(len(values)):
+		if values[i] == min(values):
+			l.append(keys[i])
