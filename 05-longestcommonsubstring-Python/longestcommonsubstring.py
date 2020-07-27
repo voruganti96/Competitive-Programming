@@ -26,4 +26,4 @@ def longestcommonsubstring(s1, s2):
 
                 j += 1
 
-                
+                if len(te)
