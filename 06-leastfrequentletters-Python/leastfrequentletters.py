@@ -11,4 +11,4 @@ def leastfrequentletters(s):
 	# Your code goes here
 	s = s.lower()
 
-	u
+	u = set(s)
