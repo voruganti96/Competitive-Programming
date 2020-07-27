@@ -18,4 +18,4 @@ def leastfrequentletters(s):
 		if ord(i) <= 122 and ord(i) >= 65:
 			d[i] = s.count(i)
 	keys = list(d.keys())
-	values = list
+	values = list(d.values())
