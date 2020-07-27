@@ -17,3 +17,4 @@ def longestcommonsubstring(s1, s2):
         if s1[i] in s2:
             temp = ""
             j = 1
+            
