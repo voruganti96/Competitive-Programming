@@ -10,4 +10,10 @@
 def longestcommonsubstring(s1, s2):
     # Yourcode goes here
     result = ""
-    
+    i = 0
+
+
+    while i < len(s1):
+        if s1[i] in s2:
+            temp = ""
+            j = 1
