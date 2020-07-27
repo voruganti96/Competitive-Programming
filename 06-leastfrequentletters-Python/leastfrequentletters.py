@@ -26,4 +26,4 @@ def leastfrequentletters(s):
 			l.append(keys[i])
 
 	l.sort()
-	return 
+	return ''
