@@ -23,3 +23,7 @@ def longestcommonsubstring(s1, s2):
                         result = temp
                 
                 temp += s1[j]
+
+                j += 1
+
+                
