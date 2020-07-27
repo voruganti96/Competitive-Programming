@@ -25,4 +25,4 @@ def leastfrequentletters(s):
 		if values[i] == min(values):
 			l.append(keys[i])
 
-		
+	l.sort
