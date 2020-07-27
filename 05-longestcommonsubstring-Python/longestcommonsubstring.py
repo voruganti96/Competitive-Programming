@@ -9,4 +9,5 @@
 
 def longestcommonsubstring(s1, s2):
     # Yourcode goes here
-    pass
+    result = ""
+    
