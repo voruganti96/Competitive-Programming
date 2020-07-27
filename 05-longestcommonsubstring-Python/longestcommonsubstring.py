@@ -31,6 +31,7 @@ def longestcommonsubstring(s1, s2):
             if len(temp) > len(result) or (len(temp) == len(result) and temp < result):
                 result = temp
         i += 1
+        
 
     return result
 
