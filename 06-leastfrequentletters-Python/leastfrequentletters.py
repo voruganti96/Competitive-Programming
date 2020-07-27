@@ -9,4 +9,6 @@
 
 def leastfrequentletters(s):
 	# Your code goes here
-	pass
+	s = s.lower()
+
+	u
