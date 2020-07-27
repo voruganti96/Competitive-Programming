@@ -14,3 +14,6 @@ def leastfrequentletters(s):
 	u = set(s)
 
 	d = {}
+	for i in u:
+		if ord(i) <= 122 and ord(i) >= 65:
+			d[i]
