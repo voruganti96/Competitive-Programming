@@ -27,4 +27,9 @@ def ispowerful(n):
 	for i in range( n//2 +1):
 		n1= 1
 		c = 0
-		
+		while(i >= n1):
+			if( i %n1 ==0):
+				c+=1
+			n1 += 1
+
+		if()
