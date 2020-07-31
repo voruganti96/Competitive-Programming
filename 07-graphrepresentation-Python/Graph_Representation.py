@@ -48,6 +48,7 @@ class Graph(object):
         max_index= len(self.nodes)
         adjacency_list = [None] * (max_index + 1)
         for node in self.nodes:
+            sub_list = []
         return adjacency_list
     
     
