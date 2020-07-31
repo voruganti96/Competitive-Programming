@@ -28,4 +28,4 @@ def fun_nth_carolprime(n):
         if(count == n):
             return check
 
-        val 
+        val +=1
