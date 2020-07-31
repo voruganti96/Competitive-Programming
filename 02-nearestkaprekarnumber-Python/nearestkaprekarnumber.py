@@ -13,4 +13,4 @@
 import math
 
 def fun_nearestkaprekarnumber(n):
-    lo
+    low = n -math.floor(n)
