@@ -59,4 +59,4 @@ def iskaprekarnumber(n):
 
 # ZeroDivisionError
 
-im
+# import
