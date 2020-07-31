@@ -34,7 +34,10 @@ def iscircularprime(n):
 	for i in range(c):
 		if not isprime(n):
 			return False
-			
+
+		rotated = n
+		c1 = 0
+		while
 
 
 
