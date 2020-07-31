@@ -20,4 +20,9 @@ def fun_nearestkaprekarnumber(n):
 
     m = n-low
     s = n+high
-    while 
+    while True:
+        if(iskaprekarnumber(m)):
+            if(iskaprekarnumber(s)):
+                if(abs(s-n) < abs(m-n)):
+                    return s
+                    
