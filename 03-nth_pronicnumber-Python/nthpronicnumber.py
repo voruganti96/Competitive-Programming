@@ -5,4 +5,11 @@
 
 def nthpronicnumber(n):
 	# Your code goes here
-	return n*n(n+1)
+	num = 0
+
+	i = 0
+	while(i <= n):
+		if(ispronic(num)):
+			i = i+1
+
+		
