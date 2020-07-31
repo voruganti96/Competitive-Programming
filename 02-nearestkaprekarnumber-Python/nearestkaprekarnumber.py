@@ -55,3 +55,8 @@ def iskaprekarnumber(n):
             if(n == temp+r):
                 return True
     return False
+
+
+# ZeroDivisionError
+
+im
