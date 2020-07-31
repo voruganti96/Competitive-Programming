@@ -20,4 +20,5 @@ def isugly(num):
     while( num %3 ==0):
         num //=3
     num = num
-    
+    while( num %5 ==0):
+        num //=5
