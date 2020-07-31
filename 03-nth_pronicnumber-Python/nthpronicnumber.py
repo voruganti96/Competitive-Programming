@@ -12,4 +12,4 @@ def nthpronicnumber(n):
 		if(ispronic(num)):
 			i = i+1
 
-		
+		num = num+1
