@@ -62,7 +62,7 @@ class Graph(object):
         
         for node in self.nodes:
             if(node.value != edge.node_to.value):
-                adjacency_matrix
+                adjacency_matrix[edge.node]
 
 
 
