@@ -23,4 +23,5 @@ def istidy(num):
         rem = num%10
         num //=10
 
-        if(rem > )
+        if(rem > prev):
+            return False
