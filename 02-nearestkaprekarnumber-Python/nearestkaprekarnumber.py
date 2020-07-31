@@ -50,4 +50,4 @@ def iskaprekarnumber(n):
         y //=10
     for j in range(x):
         temp = num//(10**j)
-        r = num
+        r = num%(10)
