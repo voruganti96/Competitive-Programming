@@ -32,4 +32,5 @@ def ispowerful(n):
 				c+=1
 			n1 += 1
 
-		if()
+		if(c ==1 or c==2):
+			lst.append(i)
