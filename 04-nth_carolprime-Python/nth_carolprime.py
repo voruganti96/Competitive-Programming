@@ -25,4 +25,7 @@ def fun_nth_carolprime(n):
     while(count < n):
         check = ((2 **val -1)**2 -2)
         count +=1
-        if(cou)
+        if(count == n):
+            return check
+
+        val 
