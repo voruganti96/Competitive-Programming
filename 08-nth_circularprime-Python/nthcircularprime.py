@@ -37,7 +37,9 @@ def iscircularprime(n):
 
 		rotated = n
 		c1 = 0
-		while
+		while( rotated !=0):
+			rotated //=10
+			c1 +=
 
 
 
