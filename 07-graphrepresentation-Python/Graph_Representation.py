@@ -52,7 +52,7 @@ class Graph(object):
             for edge in node.edges:
                 if(node.value != edge.node_to.value):
                     sub_list.append((edge.node_to.value,edge.value))
-            adj
+            adjacency_list[node.value]
         return adjacency_list
     
     
