@@ -43,4 +43,6 @@ def iskaprekarnumber(n):
     if(n==0):
         return 1
     num = int(n**2)
+    x =0
+    y = num
     
