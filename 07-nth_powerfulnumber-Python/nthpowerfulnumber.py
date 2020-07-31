@@ -24,4 +24,7 @@ def ispowerful(n):
 	if( n ==1):
 		return n
 
-	for i in range
+	for i in range( n//2 +1):
+		n1= 1
+		c = 0
+		
