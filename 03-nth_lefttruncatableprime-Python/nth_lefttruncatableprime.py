@@ -27,7 +27,7 @@ def lefttruncate(n):
         check = "".join(l1[i::-1])
         if(not isprime(int(check)) or "0" in check):
             return False
-            
+    ret
 
 
 
