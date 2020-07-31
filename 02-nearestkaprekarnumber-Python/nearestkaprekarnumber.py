@@ -13,4 +13,4 @@
 import math
 
 def fun_nearestkaprekarnumber(n):
-    return 1
+    lo
