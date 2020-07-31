@@ -14,6 +14,7 @@ import math
 
 def fun_nearestkaprekarnumber(n):
     low = n -math.floor(n)
-    high = math.ceil(n) -nif(iskaprekarnumber(n)):
-    return n
-    
+    high = math.ceil(n) -n
+    if(iskaprekarnumber(n)):
+        return n
+        
