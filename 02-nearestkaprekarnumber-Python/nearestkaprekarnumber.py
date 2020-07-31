@@ -48,4 +48,6 @@ def iskaprekarnumber(n):
     while(y >0):
         x +=1
         y //=10
-    for 
+    for j in range(x):
+        temp = num//(10**j)
+        r = num
