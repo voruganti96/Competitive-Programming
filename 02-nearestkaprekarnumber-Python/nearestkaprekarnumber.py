@@ -42,4 +42,5 @@ def fun_nearestkaprekarnumber(n):
 def iskaprekarnumber(n):
     if(n==0):
         return 1
-    num = int()
+    num = int(n**2)
+    
