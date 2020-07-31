@@ -7,4 +7,9 @@
 
 def nthpowerfulnumber(n):
 	# Your code goes here
-	pass
+	count = 0
+	num = 1
+	while(count <=n):
+		if(ispowerful(num)):
+			count +=1
+			
