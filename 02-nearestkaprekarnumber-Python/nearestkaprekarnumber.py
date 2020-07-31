@@ -54,4 +54,4 @@ def iskaprekarnumber(n):
         if (r !=0):
             if(n == temp+r):
                 return True
-    r
+    return False
