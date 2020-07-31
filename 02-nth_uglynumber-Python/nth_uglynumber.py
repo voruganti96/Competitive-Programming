@@ -16,4 +16,7 @@ def fun_nth_uglynumber(n):
 def isugly(num):
     while(num % 2 ==0):
         num //=2
+    num = num
+    while( num %3 ==0):
+        num //=3
         
