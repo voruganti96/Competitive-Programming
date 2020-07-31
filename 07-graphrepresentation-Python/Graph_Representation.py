@@ -60,7 +60,9 @@ class Graph(object):
         max_index = len(self.nodes)
         adjacency_matrix = [[0 for i in range(max_index + 1)] for j in range(max_index + 1)]
         
-        for node in self.nodes
+        for node in self.nodes:
+            if(node.value != edge.node_to.value):
+                adjacency_matrix
 
 
 
