@@ -21,4 +21,7 @@ def ispowerful(n):
 	l = []
 	lst = []
 	count = 0
-	
+	if( n ==1):
+		return n
+
+	for i in range
