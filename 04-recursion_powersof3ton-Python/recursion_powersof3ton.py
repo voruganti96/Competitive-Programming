@@ -5,4 +5,6 @@
 
 def recursion_powersof3ton(n):
 	# Your code goes here
-	pass
+	if( n <1):
+		return None
+		
