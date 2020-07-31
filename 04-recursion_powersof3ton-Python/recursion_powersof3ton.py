@@ -9,3 +9,11 @@ def recursion_powersof3ton(n):
 		return None
 
 	return power([],n,0)
+
+
+def power(x,num,y):
+	if(y > num):
+		return x
+
+	elif( 3**y <=num):
+		x.append(3**y)
