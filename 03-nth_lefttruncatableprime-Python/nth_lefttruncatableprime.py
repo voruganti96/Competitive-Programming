@@ -25,6 +25,9 @@ def lefttruncate(n):
         n = n//10
     for i in range(len(l1)-1,-1,-1):
         check = "".join(l1[i::-1])
+        if(not isprime(int(check)) or "0" in check):
+            return False
+            
 
 
 
