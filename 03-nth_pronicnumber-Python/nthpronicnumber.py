@@ -13,3 +13,12 @@ def nthpronicnumber(n):
 			i = i+1
 
 		num = num+1
+
+	return num-1
+
+def ispronic(num):
+	for x in range(0,num+1):
+		if(x*(x+1) == num):
+			return True
+
+	return False
