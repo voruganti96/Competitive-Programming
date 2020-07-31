@@ -18,7 +18,9 @@ def isprime(n):
             return False
     return True
 
-de
+def lefttruncate(n):
+    l1 = []
+    while 
 
 
 
