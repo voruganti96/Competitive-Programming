@@ -19,4 +19,5 @@ def isugly(num):
     num = num
     while( num %3 ==0):
         num //=3
-        
+    num = num
+    
