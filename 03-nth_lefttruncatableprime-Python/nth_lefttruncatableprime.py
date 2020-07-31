@@ -37,4 +37,4 @@ def fun_nth_lefttruncatableprime(n):
     while(count<n):
         if (isprime(val)):
             if(lefttruncate(val)):
-                count +=1
+                count += 1
