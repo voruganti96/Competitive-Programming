@@ -44,5 +44,5 @@ def ispowerful(n):
 	if( len(l) == count and len(l) >l):
 		return True
 
-	retun False
-	
+	return False
+
