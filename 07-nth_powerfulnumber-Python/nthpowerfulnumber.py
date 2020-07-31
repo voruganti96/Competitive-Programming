@@ -41,4 +41,8 @@ def ispowerful(n):
 			if(n%lst[i]**2 ==0):
 				l.append(lst[i])
 
+	if( len(l) == count and len(l) >l):
+		return True
+
+	retun False
 	
