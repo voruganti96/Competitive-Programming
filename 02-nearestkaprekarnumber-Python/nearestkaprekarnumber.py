@@ -25,4 +25,16 @@ def fun_nearestkaprekarnumber(n):
             if(iskaprekarnumber(s)):
                 if(abs(s-n) < abs(m-n)):
                     return s
-                    
+                    break
+                else:
+                    return m
+                    break
+            else:
+                return m
+                break
+        if(iskaprekarnumber(s)):
+            return s
+            break
+        m -=1
+        s +=1
+        
