@@ -24,7 +24,7 @@ def lefttruncate(n):
         l1.append(str(n%10))
         n = n//10
     for i in range(len(l1)-1,-1,-1):
-        check = "".join
+        check = "".join(li)
 
 
 
