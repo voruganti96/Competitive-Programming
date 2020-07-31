@@ -46,6 +46,7 @@ class Graph(object):
 
     def get_adjacency_list(self):
         adjacency_list = [None] * (max_index + 1)
+        
         return adjacency_list
     
     
