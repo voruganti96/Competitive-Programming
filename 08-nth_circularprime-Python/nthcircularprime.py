@@ -44,10 +44,13 @@ def iscircularprime(n):
 		rem = n%10
 		num = n//10
 		n = rem*(10**(c1-1))+ num
+	return True
 
 
 
 
 def nthcircularprime(n):
 	# Your code goes here
-	pass
+	num = 1
+	 c = 0
+	 
