@@ -20,7 +20,8 @@ def isprime(n):
 
 def lefttruncate(n):
     l1 = []
-    while 
+    while n >0:
+        l1.append(str)
 
 
 
