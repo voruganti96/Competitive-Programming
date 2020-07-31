@@ -12,7 +12,8 @@ import math
 
 def isprime(n):
     if(n==1):
-        return 
+        return False
+    for i in r
 
 
 
