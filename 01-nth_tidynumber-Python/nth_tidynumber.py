@@ -14,3 +14,10 @@ def fun_nth_tidynumber(n):
             i = i+1
             num += 1
     return num-1
+
+
+def istidy(num):
+    prev = 10
+
+    while(num):
+        rem = num%10
