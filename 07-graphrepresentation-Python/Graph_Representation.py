@@ -49,7 +49,9 @@ class Graph(object):
         adjacency_list = [None] * (max_index + 1)
         for node in self.nodes:
             sub_list = []
-            for edge in nod
+            for edge in node.edges:
+                if(node.value != edge.node_to.value):
+                    sub_list.append((edge.))
         return adjacency_list
     
     
