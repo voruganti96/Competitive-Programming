@@ -39,4 +39,4 @@ def reverse(num):
 
 	return rev
 
-# print(nthlychrelnumbers(1))
+print(nthlychrelnumbers(1))
