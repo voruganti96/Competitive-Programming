@@ -20,6 +20,13 @@ def isprime(n):
 		return True
 
 	return False
+
+
+def iscircularprime(n):
+	if(n ==0):
+		return False
+	c = 0
+	temp = n
 	
 
 
