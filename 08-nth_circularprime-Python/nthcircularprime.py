@@ -43,7 +43,7 @@ def iscircularprime(n):
 
 		rem = n%10
 		num = n//10
-		
+		n = rem*(10)
 
 
 
