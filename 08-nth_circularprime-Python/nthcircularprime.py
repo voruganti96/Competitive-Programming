@@ -9,7 +9,9 @@ def isprime(n):
 	i = 1
 	c = 0
 
-	while(i <)
+	while(i <=n):
+		if( n% i ==0):
+			c += 1
 
 
 
