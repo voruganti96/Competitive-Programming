@@ -16,6 +16,8 @@ def isprime(n):
 				break
 		i +=1
 
+	if
+
 
 
 
