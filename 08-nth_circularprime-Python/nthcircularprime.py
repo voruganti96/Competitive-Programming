@@ -16,7 +16,11 @@ def isprime(n):
 				break
 		i +=1
 
-	if
+	if(c <=2):
+		return True
+
+	return False
+	
 
 
 
