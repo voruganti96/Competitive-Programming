@@ -17,3 +17,5 @@ def power(x,num,y):
 
 	elif( 3**y <=num):
 		x.append(3**y)
+
+	return(power(x,num,y+1))
