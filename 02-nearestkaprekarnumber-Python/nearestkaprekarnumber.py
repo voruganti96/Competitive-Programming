@@ -37,4 +37,9 @@ def fun_nearestkaprekarnumber(n):
             break
         m -=1
         s +=1
-        
+
+
+def iskaprekarnumber(n):
+    if(n==0):
+        return 1
+    num = int()
