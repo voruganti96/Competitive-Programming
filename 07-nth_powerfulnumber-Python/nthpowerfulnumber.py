@@ -16,3 +16,9 @@ def nthpowerfulnumber(n):
 		num +=1
 
 	return (num-1)
+
+def ispowerful(n):
+	l = []
+	lst = []
+	count = 0
+	
