@@ -29,5 +29,5 @@ def isugly(num):
         return False
 
 
-    
+# ZeroDivisionError
         
