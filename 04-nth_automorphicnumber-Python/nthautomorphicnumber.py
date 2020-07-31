@@ -27,4 +27,6 @@ def nthautomorphicnumbers(n):
 
 		val = val +1
 
-		
+
+
+
