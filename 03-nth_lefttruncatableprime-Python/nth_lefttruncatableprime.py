@@ -21,7 +21,7 @@ def isprime(n):
 def lefttruncate(n):
     l1 = []
     while n >0:
-        l1.append(str)
+        l1.append(str(n%))
 
 
 
