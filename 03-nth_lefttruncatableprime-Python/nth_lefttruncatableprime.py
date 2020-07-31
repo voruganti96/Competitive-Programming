@@ -32,4 +32,5 @@ def lefttruncate(n):
 
 
 def fun_nth_lefttruncatableprime(n):
-    return 1
+    cnt = -1
+    val = 2
