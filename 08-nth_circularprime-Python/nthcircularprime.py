@@ -30,7 +30,11 @@ def iscircularprime(n):
 	while( temp !=0):
 		temp //= 10
 		c +=1
-		
+	
+	for i in range(c):
+		if not isprime(n):
+			return False
+			
 
 
 
