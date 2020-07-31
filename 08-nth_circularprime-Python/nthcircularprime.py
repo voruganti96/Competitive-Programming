@@ -40,7 +40,10 @@ def iscircularprime(n):
 		while( rotated !=0):
 			rotated //=10
 			c1 += 1
-			
+
+		rem = n%10
+		num = n//10
+		
 
 
 
