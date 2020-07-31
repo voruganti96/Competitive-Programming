@@ -34,3 +34,9 @@ def ispowerful(n):
 
 		if(c ==1 or c==2):
 			lst.append(i)
+
+	for i in range(len(lst)):
+		if(n%lst[i] ==0):
+			count +=1
+			if(n%lst[i]**2 ==0):
+				l.append(lst[i])
