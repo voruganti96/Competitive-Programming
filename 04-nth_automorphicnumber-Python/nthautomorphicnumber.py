@@ -27,6 +27,6 @@ def nthautomorphicnumbers(n):
 
 		val = val +1
 
-# print(nthautomorphicnumbers(10))
+print(nthautomorphicnumbers(10))
 
 
