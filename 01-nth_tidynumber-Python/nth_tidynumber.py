@@ -27,4 +27,4 @@ def istidy(num):
             return False
         prev = rem
 
-    return T
+    return true
