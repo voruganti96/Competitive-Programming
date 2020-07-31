@@ -40,3 +40,5 @@ def ispowerful(n):
 			count +=1
 			if(n%lst[i]**2 ==0):
 				l.append(lst[i])
+
+	
