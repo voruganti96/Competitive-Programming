@@ -21,3 +21,6 @@ def istidy(num):
 
     while(num):
         rem = num%10
+        num //=10
+
+        if(rem > )
