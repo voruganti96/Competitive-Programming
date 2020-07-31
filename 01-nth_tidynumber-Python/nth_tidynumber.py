@@ -13,4 +13,4 @@ def fun_nth_tidynumber(n):
         if(istidy(num)):
             i = i+1
             num += 1
-            
+    return num-1
