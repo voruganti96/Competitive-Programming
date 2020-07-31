@@ -40,4 +40,4 @@ def fun_nth_lefttruncatableprime(n):
                 cnt += 1
                 if(cnt==n):
                     return val
-        va
+        val = val =1
