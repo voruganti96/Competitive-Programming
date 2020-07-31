@@ -23,4 +23,8 @@ def isugly(num):
     while( num %5 ==0):
         num //=5
     num = num
-    
+    if( num ==1):
+        return True
+    else:
+        return False
+        
