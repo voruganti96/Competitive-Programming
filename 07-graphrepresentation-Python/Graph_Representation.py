@@ -45,9 +45,9 @@ class Graph(object):
         return edge_list
 
     def get_adjacency_list(self):
-        max_
+        max_index= len(self.nodes)
         adjacency_list = [None] * (max_index + 1)
-        
+        for node in self.nodes:
         return adjacency_list
     
     
