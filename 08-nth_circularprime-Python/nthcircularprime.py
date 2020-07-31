@@ -27,7 +27,10 @@ def iscircularprime(n):
 		return False
 	c = 0
 	temp = n
-	while( temp)
+	while( temp !=0):
+		temp //= 10
+		c +=1
+		
 
 
 
