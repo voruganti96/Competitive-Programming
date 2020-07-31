@@ -27,4 +27,7 @@ def isugly(num):
         return True
     else:
         return False
+
+
+    
         
