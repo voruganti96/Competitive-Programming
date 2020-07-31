@@ -17,4 +17,7 @@ def fun_nearestkaprekarnumber(n):
     high = math.ceil(n) -n
     if(iskaprekarnumber(n)):
         return n
-        
+
+    m = n-low
+    s = n+high
+    while 
