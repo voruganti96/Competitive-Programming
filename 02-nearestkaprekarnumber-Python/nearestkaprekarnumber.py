@@ -45,4 +45,6 @@ def iskaprekarnumber(n):
     num = int(n**2)
     x =0
     y = num
-    
+    while(y >0):
+        x +=1
+        y //=10
