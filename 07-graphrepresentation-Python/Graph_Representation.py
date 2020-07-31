@@ -65,5 +65,4 @@ class Graph(object):
                 adjacency_matrix[edge.node_from.value][edge.node_to.value] = edge.value
 
 
-
         return adjacency_matrix
