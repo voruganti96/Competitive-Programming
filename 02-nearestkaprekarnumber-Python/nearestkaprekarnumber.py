@@ -51,4 +51,7 @@ def iskaprekarnumber(n):
     for j in range(x):
         temp = num//(10**j)
         r = num%(10**j)
-        if (r !=0)
+        if (r !=0):
+            if(n == temp+r):
+                return True
+    r
