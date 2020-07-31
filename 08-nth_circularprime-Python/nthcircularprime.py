@@ -52,5 +52,11 @@ def iscircularprime(n):
 def nthcircularprime(n):
 	# Your code goes here
 	num = 1
-	 c = 0
-	 
+	c = 0
+
+	while( c <=n):
+		if(iscircularprime(num)):
+			c +=1
+		num +=1
+
+	return num-1
