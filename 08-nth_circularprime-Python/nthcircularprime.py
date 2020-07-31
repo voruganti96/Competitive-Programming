@@ -14,7 +14,7 @@ def isprime(n):
 			c += 1
 			if(c >2):
 				break
-		
+		i +=1
 
 
 
