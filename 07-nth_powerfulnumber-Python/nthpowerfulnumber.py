@@ -12,4 +12,7 @@ def nthpowerfulnumber(n):
 	while(count <=n):
 		if(ispowerful(num)):
 			count +=1
-			
+		
+		num +=1
+
+	return (num-1)
