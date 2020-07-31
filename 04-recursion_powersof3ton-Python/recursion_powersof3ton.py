@@ -7,4 +7,5 @@ def recursion_powersof3ton(n):
 	# Your code goes here
 	if( n <1):
 		return None
-		
+
+	return power([])
