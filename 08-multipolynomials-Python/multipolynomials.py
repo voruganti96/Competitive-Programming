@@ -27,7 +27,7 @@ def multipolynomials(p1, p2):
 		for j in range(len(p2)):
 			poly[i+j] += p1[i] *p2[j]
 
-	
+	return poly
 
 	
 
