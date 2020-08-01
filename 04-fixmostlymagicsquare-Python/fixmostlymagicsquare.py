@@ -27,4 +27,4 @@ def fixmostlymagicsquare(L):
 	for i in range(0, len(L)):
 		if(sum(L[i]) != sum0):
 			if(sum0 > sum(l[i])):
-				l[i][-1] = L[i][-1]
+				l[i][-1] = L[i][-1]+ sum(sum0 - sum(L[i]))
