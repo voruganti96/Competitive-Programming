@@ -11,3 +11,5 @@ def fixmostlymagicsquare(L):
 	# Your code goes here
 
 	sum0 = sum(l[0])
+	d = {}
+	
