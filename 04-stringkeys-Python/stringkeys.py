@@ -31,6 +31,8 @@ class HashTable(object):
         hash value from a string."""
         # Your code goes here
         hash_value = ord(string[0])*100 + ord(string[1])
-        return hash_valu
+        
+
+        
 
 
