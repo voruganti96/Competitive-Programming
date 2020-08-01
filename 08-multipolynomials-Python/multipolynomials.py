@@ -19,7 +19,8 @@ def multipolynomials(p1, p2):
 	# 	int_res.append(int(i))
 	# return int_res
 
-	m = len
+	m = len(p1)
+	
 
 	
 
