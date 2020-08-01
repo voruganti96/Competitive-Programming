@@ -10,4 +10,4 @@ def fixmostlymagicsquare(L):
 	
 	# Your code goes here
 
-	sum0
+	sum0 = sum(l[0])
