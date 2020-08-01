@@ -141,6 +141,10 @@ class Graph(object):
         RETURN: a list of the traversed node values (integers).
         """
         start_node.visited = True
+        dfs_list.append(start_node.value)
+        for i in start.node_to.visited == False:
+            self.dfs_helper(i.node_to, dfs_list)
+        return dfs_list
         pass
 
     def dfs(self, start_node_num):
@@ -164,7 +168,21 @@ class Graph(object):
         ARGUMENTS: start_node_num is the node number (integer)
         MODIFIES: the value of the visited property of nodes in self.nodes
         RETURN: a list of the node values (integers)."""
-        pass
+        self._clear_visited()
+        result_lst=[]
+        trans_lst=[]
+        trans_lst.append(start_node_num)
+        self.find_node(start_node_num).visited= True
+        while(len(trans_lst)>0):
+            s= trans_lst.pop(0)
+            result_lst.append(s)
+            get_node = self.find_node(s)
+            for edge in get_node.edges:
+                if(edge.node_from.value == get_node.value):
+                    if edge.node_to.visited == False:
+                        trans_lst.append(edge.node_to.value)
+                        edge.node_to.visited =True
+        return result_lst
 
     def bfs_names(self, start_node_num):
         """Return the results of bfs with numbers converted to names."""
