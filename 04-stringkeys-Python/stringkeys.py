@@ -20,12 +20,16 @@ class HashTable(object):
         string is already in the table.
         Return -1 otherwise."""
         # Your code goes here
-        
+        val = self.calculate_hash_value(string)
+        if(self.table[val] == string):
+            return val
+        else:
+            return -1
 
     def calculate_hash_value(self, string):
         """Helper function to calulate a
         hash value from a string."""
         # Your code goes here
-        pass
+        hash_value = ord(string[0])
 
 
