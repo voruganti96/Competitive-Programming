@@ -19,4 +19,12 @@ def fixmostlymagicsquare(L):
 			d[sum(i)] =1
 
 	val = max(d.values())
+
+	for j in d:
+		if(d[j] == val):
+			sum0=j
 	
+	for i in range(0, len(L)):
+		if(sum(L[i]) != sum0):
+			if(sum0 > sum(l[i])):
+				l[i][-1] = L[i][-1]
