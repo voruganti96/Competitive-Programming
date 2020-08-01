@@ -20,7 +20,7 @@ def multipolynomials(p1, p2):
 	# return int_res
 
 	m = len(p1)
-	
+	n = len
 
 	
 
