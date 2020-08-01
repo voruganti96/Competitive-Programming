@@ -13,4 +13,8 @@ def issorted(a):
 
 
 	n.sort(reverse=True)
-	
+	a.sort()
+
+	if( m ==a or m ==n):
+		return True
+	return False
