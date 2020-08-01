@@ -4,17 +4,13 @@
 # must only consider each value in the list once (so, in terms of big-oh, which we will 
 # learn soon, it runs in O(n) time, where n=len(a)), and so in particular you may not sort 
 # the list.
+import copy
 
 def issorted(a):
 	# your code goes here
-	flag  = True
-	for i in range(len(a)-1):
-		if (a[i] > a[i+1]):
-			flag = False
+	m = copy.deepcopy(a)
+	n = copy.deepcopy(a)
 
-	if flag == False:
-		for i in range(len(a)):
-			if(a[i] <= a[i+1]):
-				return False
-	else:
-		return True
+
+	n.sort(reverse=True)
+	
