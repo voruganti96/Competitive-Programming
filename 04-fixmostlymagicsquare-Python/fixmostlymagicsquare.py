@@ -7,5 +7,7 @@
 
 
 def fixmostlymagicsquare(L):
-	pass
+	
 	# Your code goes here
+
+	sum0
