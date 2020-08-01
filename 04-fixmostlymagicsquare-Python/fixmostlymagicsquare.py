@@ -10,7 +10,7 @@ def fixmostlymagicsquare(L):
 	
 	# Your code goes here
 
-	sum0 = sum(l[0])
+	sum0 = sum(L[0])
 	d = {}
 	for i in L:
 		if(sum(i) in d.keys()):
@@ -26,7 +26,7 @@ def fixmostlymagicsquare(L):
 	
 	for i in range(0, len(L)):
 		if(sum(L[i]) != sum0):
-			if(sum0 > sum(l[i])):
+			if(sum0 > sum(L[i])):
 				l[i][-1] = L[i][-1]+ sum(sum0 - sum(L[i]))
 
 			elif(sum0 < sum(L[i])):
