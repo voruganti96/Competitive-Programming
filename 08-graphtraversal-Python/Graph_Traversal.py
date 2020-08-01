@@ -130,7 +130,7 @@ class Graph(object):
     def _clear_visited(self):
         for node in self.nodes:
             node.visited = False
-
+    dfs_list=[]
     def dfs_helper(self, start_node):
         """TODO: Write the helper function for a recursive implementation
         of Depth First Search iterating through a node's edges. The
@@ -142,8 +142,9 @@ class Graph(object):
         """
         start_node.visited = True
         dfs_list.append(start_node.value)
-        for i in start.node_to.visited == False:
-            self.dfs_helper(i.node_to, dfs_list)
+        for i in start_node.edges:
+            if i.node_to.visited == False:
+                self.dfs_helper(i.node_to, dfs_list)
         return dfs_list
         pass
 
@@ -186,7 +187,7 @@ class Graph(object):
 
     def bfs_names(self, start_node_num):
         """Return the results of bfs with numbers converted to names."""
-        del ret_list[0 : len(ret_list)]
+        # del ret_list[0 : len(ret_list)]
         return [self.node_names[num] for num in self.bfs(start_node_num)]
 
 
