@@ -39,5 +39,13 @@ def fun_matrixmultiply(m1, m2):
 
     mat= []
 
+    for i in range(0,rows1):
+        mati = []
+
+        for j in range(0,col2):
+            mati.append(0)
+
+        
+
 
 
