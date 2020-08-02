@@ -14,16 +14,26 @@
 # may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return 
 # None if the two matrices 
 # cannot be added because they are of different dimensions.
-
+import numpy as np
 def matrixadd(L, M):
 	# Your code goes here
-	N = L
-	if len(L) == len(M) and len(L[0]) == len(M[0]):
-		try:
-			for i in range(len(L)):
-				for j in range(len(L[0])):
-					N[i][j] = L[i][j] + M[i][j]
-			return N
-		except:
-			return None
-	return None
+	# N = L
+	# if len(L) == len(M) and len(L[0]) == len(M[0]):
+	# 	try:
+	# 		for i in range(len(L)):
+	# 			for j in range(len(L[0])):
+	# 				N[i][j] = L[i][j] + M[i][j]
+	# 		return N
+	# 	except:
+	# 		return None
+	# return None
+
+	if(np.size(L) != np.size(M)):
+		return None
+
+	L = np.array(L)
+	M= np.array(M)
+
+	n = np.add(L,M)
+	list1 = [list(val) for val in n]
+	return list1
