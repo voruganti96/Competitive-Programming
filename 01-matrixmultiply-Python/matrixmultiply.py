@@ -45,7 +45,12 @@ def fun_matrixmultiply(m1, m2):
         for j in range(0,col2):
             mati.append(0)
 
-        mat
+        mat.append(mati)
+
+    for i in range(0,len(m1)):
+        for k in range(0,len(m2[0])):
+            for k in range(0,len(m2)):
+                mat[i][j] += m1[i][k] * m2[k][j]
 
 
 
