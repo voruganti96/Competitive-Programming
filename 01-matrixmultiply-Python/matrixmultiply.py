@@ -45,7 +45,7 @@ def fun_matrixmultiply(m1, m2):
         for j in range(0,col2):
             mati.append(0)
 
-        
+        mat
 
 
 
